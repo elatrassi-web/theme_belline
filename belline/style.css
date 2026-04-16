@@ -1,0 +1,189 @@
+/*
+Theme Name: Belline
+Theme URI: https://belline.net/
+Author: Jules
+Description: Custom WordPress theme for Belline.net, converted from OpenElement CMS.
+Version: 1.0
+Text Domain: belline
+*/
+
+/* Styles for 32 Cartes Tooltips and Modal */
+.carte-container {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.carte-container:hover {
+    transform: scale(1.05);
+}
+
+.carte-tooltip {
+    visibility: hidden;
+    background-color: #fceea7;
+    color: #000;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 10;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 8px;
+}
+
+.carte-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fceea7 transparent transparent transparent;
+}
+
+.carte-container:hover .carte-tooltip {
+    visibility: visible;
+}
+
+/* Modal Overlay */
+.carte-modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.carte-modal-content {
+    background-color: #808080; /* Matching original grey background */
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.carte-modal-close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carte-modal-close:hover,
+.carte-modal-close:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+#modal-carte-text p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.carte-img {
+    width: 100px; /* Force uniform width for all cards */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.cartes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center; /* Center the cards in their grid cells */
+}
+
+/* Oracle Card Hover & Layout */
+.oracle-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.oracle-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.oracle-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+/* Tooltip on hover - Yellow bubble style */
+.oracle-card::after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: 100%; /* Position above the card */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffec8b; /* Yellow bubble */
+    color: #333;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #d4c575;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 20;
+    margin-bottom: 10px;
+}
+
+/* Bubble arrow */
+.oracle-card::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ffec8b transparent transparent transparent;
+    opacity: 0;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    z-index: 21;
+    margin-bottom: -2px; /* Pull down over the gap slightly */
+}
+
+.oracle-card:hover::after, .oracle-card:hover::before {
+    opacity: 1;
+}
+
+.oracle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
