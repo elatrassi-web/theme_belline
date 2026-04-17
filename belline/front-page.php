@@ -3398,84 +3398,98 @@ get_header(); ?>
 
       <!-- Méthodes Content -->
       <div id="content-methodes" class="spa-content-section">
-        <h2>Méthodes</h2>
-        <div class="methodes-text">
+        <div class="methodes-content" style="text-align: left; line-height: 1.6; max-width: 800px; margin: 0 auto;">
+          <h2 style="color: yellow; font-style: italic; text-align: center; font-size: 24px; margin-bottom: 20px;">Quelques méthodes de l'Oracle Belline</h2>
 
-          L’Oracle Belline est un instrument de divination constitué de 53 cartes. Il est employé pour chercher des réponses concernant l’avenir, le développement personnel ou pour obtenir des conseils sur des situations particulières. Différentes méthodes peuvent être utilisées pour tirer les cartes de l’Oracle Belline. Voici quelques-unes des techniques les plus fréquemment utilisées, à condition de disposer du fluide requis…<br><br>
+          <div style="text-align: center; margin-bottom: 30px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon_methode_final.png" alt="Icon Méthodes" style="width: 150px;">
+          </div>
 
-          <strong>Préparation :</strong> Trouvez un endroit calme où vous pourrez vous concentrer. Prenez quelques instants pour vous détendre et vous recentrer.<br>
-          <strong>Formulation de la question :</strong> Pensez à une question claire et précise à laquelle vous souhaitez obtenir une réponse.<br>
-          <strong>Mélange des cartes :</strong> Prenez le jeu de cartes de l’Oracle Belline et mélangez-le tout en vous concentrant sur votre question.<br>
-          <strong>Tirage de la carte :</strong> Une fois que vous vous sentez prêt, tirez une ou plusieurs cartes du jeu suivant la méthode que vous aurez choisie.<br><br>
+          <p>L’Oracle Belline est un instrument de divination constitué de 53 cartes. Il est employé pour chercher des réponses concernant l’avenir, le développement personnel ou pour obtenir des conseils sur des situations particulières. Différentes méthodes peuvent être utilisées pour tirer les cartes de l’Oracle Belline. Voici quelques-unes des techniques les plus fréquemment utilisées, à condition de disposer du fluide requis…</p><br>
 
+          <p><strong style="color: yellow;">Préparation</strong> : Trouvez un endroit calme où vous pourrez vous concentrer. Prenez quelques instants pour vous détendre et vous recentrer.<br>
+          <strong style="color: yellow;">Formulation de la question</strong> : Pensez à une question claire et précise à laquelle vous souhaitez obtenir une réponse.<br>
+          <strong style="color: yellow;">Mélange des cartes</strong> : Prenez le jeu de cartes de l’Oracle Belline et mélangez-le tout en vous concentrant sur votre question.<br>
+          <strong style="color: yellow;">Tirage de la carte</strong> : Une fois que vous vous sentez prêt, tirez une ou plusieurs cartes du jeu suivant la méthode que vous aurez choisie.</p><br><br>
 
-          <h3 style="color: #ffeb3b;">Tirage simple (Tirage à une carte)</h3><br>
+          <h3 style="color: yellow; font-size: 20px;">Tirage simple <span style="font-size: 16px; color: #fff; font-weight: normal;">(Tirage à une carte)</span></h3><br>
 
-          Le tirage à une carte de l’Oracle Belline est une méthode simple et efficace de divination. Cette technique consiste à tirer une seule carte pour obtenir une réponse directe ou un éclairage sur une question précise. Voici comment procéder :<br><br>
+          <p>Le tirage à une carte de l’Oracle Belline est une méthode simple et efficace de divination. Cette technique consiste à tirer une seule carte pour obtenir une réponse directe ou un éclairage sur une question précise. Voici comment procéder :</p><br>
 
-          <strong>Interprétation :</strong> Utilisez votre fluide et vos connaissances pour interpréter la carte tirée. Chaque carte a une signification propre et peut fournir des indications sur votre situation ou votre question.<br><br>
+          <p><strong style="color: yellow;">Interprétation</strong> : Utilisez votre fluide et vos connaissances pour interpréter la carte tirée. Chaque carte a une signification propre et peut fournir des indications sur votre situation ou votre question.</p><br>
 
-          Ce tirage est idéal pour obtenir des réponses rapides et précises, et il peut être effectué à tout moment, que ce soit pour des réflexions personnelles ou pour des conseils sur des décisions à prendre.<br><br>
+          <p>Ce tirage est idéal pour obtenir des réponses rapides et précises, et il peut être effectué à tout moment, que ce soit pour des réflexions personnelles ou pour des conseils sur des décisions à prendre.</p><br><br>
 
+          <h3 style="color: yellow; font-size: 20px;">Tirage en croix <span style="font-size: 16px; color: #fff; font-weight: normal;">(voir exemple plus bas)</span></h3><br>
 
-          <h3 style="color: #ffeb3b;">Tirage en croix (voir exemple plus bas)</h3><br>
+          <p>Dans cette méthode, cinq cartes sont tirées et disposées en forme de croix. Chaque carte représente un aspect différent de la situation :</p><br>
 
-          Dans cette méthode, cinq cartes sont tirées et disposées en forme de croix. Chaque carte représente un aspect différent de la situation :<br><br>
+          <p><strong style="color: yellow;">Carte 1</strong> (Situation actuelle) : Tirez la première carte et placez-la au centre. Elle représente la situation actuelle ou le cœur du problème.<br>
+          <strong style="color: yellow;">Carte 2</strong> (Obstacles) : Tirez la deuxième carte et placez-la à gauche de la première. Elle symbolise les obstacles ou défis à surmonter.<br>
+          <strong style="color: yellow;">Carte 3</strong> (Passé) : Tirez la troisième carte et placez-la en haut. Elle évoque les influences passées qui ont conduit à la situation actuelle.<br>
+          <strong style="color: yellow;">Carte 4</strong> (Futur) : Tirez la quatrième carte et placez-la en bas. Elle donne un aperçu des résultats ou des développements futurs possibles.<br>
+          <strong style="color: yellow;">Carte 5</strong> (Conseil) : Tirez la cinquième carte et placez-la à droite de la première. Elle fournit des conseils ou des recommandations pour naviguer dans la situation.</p><br>
 
-          <strong>Carte 1 (Situation actuelle) :</strong> Tirez la première carte et placez-la au centre. Elle représente la situation actuelle ou le cœur du problème.<br>
-          <strong>Carte 2 (Obstacles) :</strong> Tirez la deuxième carte et placez-la à gauche de la première. Elle symbolise les obstacles ou défis à surmonter.<br>
-          <strong>Carte 3 (Passé) :</strong> Tirez la troisième carte et placez-la en haut. Elle évoque les influences passées qui ont conduit à la situation actuelle.<br>
-          <strong>Carte 4 (Futur) :</strong> Tirez la quatrième carte et placez-la en bas. Elle donne un aperçu des résultats ou des développements futurs possibles.<br>
-          <strong>Carte 5 (Conseil) :</strong> Tirez la cinquième carte et placez-la à droite de la première. Elle fournit des conseils ou des recommandations pour naviguer dans la situation.<br><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Interprétation des cartes</strong> : Analysez chaque carte en tenant compte de leur signification individuelle ainsi que de leur position dans le tirage. Réfléchissez à la manière dont elles interagissent entre elles pour obtenir une compréhension globale de la situation.</p><br>
 
-          <strong>Interprétation des cartes :</strong> Analysez chaque carte en tenant compte de leur signification individuelle ainsi que de leur position dans le tirage. Réfléchissez à la manière dont elles interagissent entre elles pour obtenir une compréhension globale de la situation.<br><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Conclusion</strong> :<br>
+          Le tirage en croix de l’Oracle Belline est un outil puissant pour explorer des questions complexes et obtenir des conseils. En prenant le temps d’interpréter chaque carte et son positionnement, vous pouvez obtenir des réponses significatives et éclairantes.</p><br><br>
 
-          <strong>Conclusion :</strong><br>
-          Le tirage en croix de l’Oracle Belline est un outil puissant pour explorer des questions complexes et obtenir des conseils. En prenant le temps d’interpréter chaque carte et son positionnement, vous pouvez obtenir des réponses significatives et éclairantes.<br><br>
+          <h3 style="color: yellow; font-size: 20px;">Tirage en pyramide <span style="font-size: 16px; color: #fff; font-weight: normal;">(voir exemple plus bas)</span></h3><br>
 
+          <p>Le tirage en pyramide de l’Oracle Belline est une méthode qui permet d’explorer en profondeur une situation ou une question grâce à une disposition en forme de pyramide, généralement composée de 6 cartes. Ce tirage offre une vision structurée et détaillée des influences passées, présentes et futures, ainsi que des conseils. Voici comment procéder :</p><br>
 
-          <h3 style="color: #ffeb3b;">Tirage en pyramide (voir exemple plus bas)</h3><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Disposition des cartes</strong> :</p><br>
 
-          Le tirage en pyramide de l’Oracle Belline est une méthode qui permet d’explorer en profondeur une situation ou une question grâce à une disposition en forme de pyramide, généralement composée de 6 cartes. Ce tirage offre une vision structurée et détaillée des influences passées, présentes et futures, ainsi que des conseils. Voici comment procéder :<br><br>
+          <p><strong style="color: yellow;">Niveau 1</strong> (Base de la pyramide) : Tirez 3 cartes et placez-les côte à côte. Ces cartes représentent les influences passées et les fondations de la situation actuelle.<br>
+          <strong style="color: yellow;">Niveau 2</strong> (Milieu de la pyramide) : Tirez 2 cartes et placez-les au-dessus des 3 premières. Ces cartes symbolisent la situation actuelle et les défis immédiats.<br>
+          <strong style="color: yellow;">Niveau 3</strong> (Sommet de la pyramide) : Tirez 1 carte et placez-la au sommet de la pyramide. Cette carte représente l’issue ou le résultat potentiel de la situation.</p><br>
 
-          <strong>Disposition des cartes :</strong><br><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Interprétation des cartes</strong> :</p><br>
 
-          <strong>Niveau 1 (Base de la pyramide) :</strong> Tirez 3 cartes et placez-les côte à côte. Ces cartes représentent les influences passées et les fondations de la situation actuelle.<br>
-          <strong>Niveau 2 (Milieu de la pyramide) :</strong> Tirez 2 cartes et placez-les au-dessus des 3 premières. Ces cartes symbolisent la situation actuelle et les défis immédiats.<br>
-          <strong>Niveau 3 (Sommet de la pyramide) :</strong> Tirez 1 carte et placez-la au sommet de la pyramide. Cette carte représente l’issue ou le résultat potentiel de la situation.<br><br>
-
-          <strong>Interprétation des cartes :</strong><br><br>
-
-          <strong>Niveau 1 (Influences passées)</strong><br>
+          <p><strong style="color: yellow;">Niveau 1 (Influences passées)</strong><br>
           Cartes 1, 2 et 3 : Analysez chacune de ces cartes pour comprendre les événements ou influences qui ont conduit à la situation actuelle. Pensez à la façon dont ces influences interagissent entre elles.<br>
-          <strong>Niveau 2 (Situation actuelle)</strong><br>
+          <strong style="color: yellow;">Niveau 2 (Situation actuelle)</strong><br>
           Cartes 4 et 5 : Ces cartes vous donneront des indications sur les défis que vous rencontrez actuellement. Réfléchissez à la manière dont elles influencent votre situation et à ce qui doit être pris en compte pour avancer.<br>
-          <strong>Niveau 3 (Résultat potentiel)</strong><br>
-          Carte 6 : Cette carte vous fournira des indications sur l’issue de la situation, ainsi que sur les conseils à suivre pour atteindre le meilleur résultat possible.<br><br>
+          <strong style="color: yellow;">Niveau 3 (Résultat potentiel)</strong><br>
+          Carte 6 : Cette carte vous fournira des indications sur l’issue de la situation, ainsi que sur les conseils à suivre pour atteindre le meilleur résultat possible.</p><br>
 
-          <strong>Conclusion :</strong><br><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Conclusion</strong> :</p><br>
 
-          Le tirage en pyramide de l’Oracle Belline est un excellent moyen d’obtenir une vision globale et détaillée d’une question ou d’une situation. En interprétant chaque carte et en tenant compte de leur position dans la pyramide, vous pourrez mieux comprendre les influences en jeu et les chemins possibles à suivre. Prenez le temps d’analyser les interactions entre les cartes pour enrichir votre interprétation.<br><br>
+          <p>Le tirage en pyramide de l’Oracle Belline est un excellent moyen d’obtenir une vision globale et détaillée d’une question ou d’une situation. En interprétant chaque carte et en tenant compte de leur position dans la pyramide, vous pourrez mieux comprendre les influences en jeu et les chemins possibles à suivre. Prenez le temps d’analyser les interactions entre les cartes pour enrichir votre interprétation.</p><br><br>
 
+          <h3 style="color: yellow; font-size: 20px;">Tirage en Ligne à 3 ou 5 cartes <span style="font-size: 16px; color: #fff; font-weight: normal;">(voir exemple plus bas)</span></h3><br>
 
-          <h3 style="color: #ffeb3b;">Tirage en Ligne à 3 ou 5 cartes (voir exemple plus bas)</h3><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Disposition et interprétation des cartes</strong> :</p><br>
 
-          <strong>Disposition et interprétation des cartes :</strong><br><br>
+          <p>Tirez 5 cartes et disposez-les en ligne en allant de la gauche vers la droite.</p><br>
 
-          Tirez 5 cartes et disposez-les en ligne en allant de la gauche vers la droite.<br><br>
+          <p><strong style="color: yellow;">Carte 1</strong> (Passé) : Représente les influences ou événements passés qui ont conduit à la situation actuelle.<br>
+          <strong style="color: yellow;">Carte 2</strong> (Présent) : Montre la situation actuelle et les énergies qui l’entourent.<br>
+          <strong style="color: yellow;">Carte 3</strong> (Futur immédiat) : Indique ce qui pourrait se passer dans un avenir proche.<br>
+          <strong style="color: yellow;">Carte 4</strong> (Obstacle) : Met en lumière les défis ou les blocages qui pourraient surgir.<br>
+          <strong style="color: yellow;">Carte 5</strong> (Conseils/Issue) : Donne des conseils sur la manière de naviguer la situation ou indique le résultat potentiel</p><br>
 
-          <strong>Carte 1 (Passé) :</strong> Représente les influences ou événements passés qui ont conduit à la situation actuelle.<br>
-          <strong>Carte 2 (Présent) :</strong> Montre la situation actuelle et les énergies qui l’entourent.<br>
-          <strong>Carte 3 (Futur immédiat) :</strong> Indique ce qui pourrait se passer dans un avenir proche.<br>
-          <strong>Carte 4 (Obstacle) :</strong> Met en lumière les défis ou les blocages qui pourraient surgir.<br>
-          <strong>Carte 5 (Conseils/Issue) :</strong> Donne des conseils sur la manière de naviguer la situation ou indique le résultat potentiel<br><br>
+          <p><strong style="color: yellow; text-decoration: underline;">Conclusion</strong> :</p><br>
 
-          <strong>Conclusion :</strong><br><br>
+          <p>Le tirage en ligne de l’Oracle Belline est sans doute un des plus simples tirage. Cela n'en reste pas moins un excellent moyen d’obtenir une perspective détaillée et structurée sur une question ou une situation spécifique. Prenez le temps d’analyser les interactions entre les cartes pour enrichir votre interprétation.</p><br>
 
-          Le tirage en ligne de l’Oracle Belline est sans doute un des plus simples tirage. Cela n'en reste pas moins un excellent moyen d’obtenir une perspective détaillée et structurée sur une question ou une situation spécifique. Prenez le temps d’analyser les interactions entre les cartes pour enrichir votre interprétation.<br><br>
+          <p><strong style="color: yellow;">En résumé, peu importe la méthode de tirage choisie, l'interprétation des cartes est cruciale. Chaque lame de l'Oracle Belline a une signification propre qui peut varier en fonction de son positionnement et des cartes qui l'entourent.</strong></p><br><br>
 
-          En résumé, peu importe la méthode de tirage choisie, l'interprétation des cartes est cruciale. Chaque lame de l'Oracle Belline a une signification propre qui peut varier en fonction de son positionnement et des cartes qui l'entourent.
-
+          <div style="display: flex; flex-direction: column; gap: 15px;">
+            <div style="display: flex; align-items: center; gap: 15px;">
+              <div style="width: 30px; height: 30px; border-radius: 50%; background-color: #4da6ff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">1</div>
+              <h3 style="color: yellow; font-style: italic; margin: 0;">Tirage en croix</h3>
+            </div>
+            <div style="display: flex; align-items: center; gap: 15px;">
+              <div style="width: 30px; height: 30px; border-radius: 50%; background-color: #4da6ff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">2</div>
+              <h3 style="color: yellow; font-style: italic; margin: 0;">Tirage en pyramide</h3>
+            </div>
+            <div style="display: flex; align-items: center; gap: 15px;">
+              <div style="width: 30px; height: 30px; border-radius: 50%; background-color: #4da6ff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">3</div>
+              <h3 style="color: yellow; font-style: italic; margin: 0;">Tirage en ligne</h3>
+            </div>
+          </div>
         </div>
       </div>
 
