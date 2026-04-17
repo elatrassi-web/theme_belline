@@ -3784,43 +3784,43 @@ complémentaires et affiner la situation.</p>`,
           title: "Appui",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame "l'appui" de l'oracle Belline comporte 2 éléments : un aigle couronné ayant les ailes déployées, une sphère d'or entre ses griffes. Placée sous le signe de Jupiter, elle signifie la protection, les aides et les soutiens sérieux et efficaces dans les projets.</em></p><p><em>Cette lame symbolise les appuis puissants, quelle que soit la profession. C'est la promesse que le consultant aura une promotion ou un poste clé au sein de L'entreprise, une opportunité à ne pas manquer pour celui qui cherche un emploi. Le consultant pourra être en passe de décrocher un contrat d'envergure, obtenir un prêt, une bourse ou bien encore un mécénat.</em></p><p><em>Côté coeur, situation de famille stable et harmonieuse. Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-40": {
           title: "Beauté",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame "la beauté" de l'oracle Belline comporte 3 éléments : un oeillet d'or surmonté d'un coeur couronné. Placée sous le signe de Jupiter, elle signifie beauté, jeunesse, grâce, charme, élégance mais aussi le calme, la sérénité et l'équilibre.</em></p><p><em>C'est la carte par définition de la féminité, de l'esthétisme, de la séduction qui peut mener le consultant vers une union, un mariage. Sur le plan matériel, il s'agit de l'épanouissement d'une affaire ou d'une entreprise en plein développement, en pleine expansion.</em></p><p><em>Elle se fait également synonyme d'espoir, de sérénité, d'épanouissement et de réalisation des souhaits placée aux côtés de cartes favorables. Après avoir fait des efforts sur le plan personnel, le consultant pourra s'épanouir d'avantage et profiter d'une période de repos bien méritée.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-41": {
           title: "Héritage",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame "l'héritage" de l'oracle Belline comporte 3 éléments : un testament, un crâne et un sablier. Placée sous le signe de Jupiter, elle signifie la mort, un héritage matériel ou intellectuel, un don, un leg.</em></p><p><em>Le consultant a peut-être besoin de revenir sur son passé pour se recentrer sur le présent et modifier les choses et les actes qu'il n'a pas su gérer en temps et en heure. C'est le moment de dire adieu aux affres du passé et de revenir vers des choses plus bénéfiques.</em></p><p><em>Cette lame symbolise également le temps qui court, inéxorable, inéluctable. Si la mort au sens propre est à envisager sur le plan ésotérique cette lame évoque également le signe de l'aboutissement d'une affaire, d'un contrat mené à son terme placée à côté de cartes positives.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-42": {
           title: "Sagesse",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame de "la sagesse" de l'oracle Belline comporte 1 élément central : un hibou couronné. Placée sous le signe de Jupiter, elle signifie la sagesse, la prudence, la modération. (Note: le texte fourni semble être celui de la Renommée, voici une interprétation générique en attendant la bonne).</em></p><p><em>Elle invite à la réflexion, à prendre du recul avant d'agir et à faire preuve de discernement. C'est une période propice à l'apprentissage et à l'acquisition de connaissances.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-43": {
           title: "La Renommée",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame de la "renommée" de l'oracle Belline comporte 3 éléments : un drapeau, une trompette et une couronne de lauriers. Placée sous le signe de Jupiter, elle signifie la victoire, la suprématie, le succès, la célébrité.</em></p><p><em>L'on remarque que le drapeau arbore les symboles de 4 planètes : Vénus, Mars, Jupiter et la Lune. Vénus représente la beauté et l'esthétisme, Mars l'énergie et le courage, Jupiter l'expansion sociale et la communication et enfin la Lune, qui décrit le champ du subconscient.</em></p><p><em>La trompette signifie la célébrité et la couronne de lauriers la réussite, cette carte indique le succès, la renommée et la notoriété. C'est la lame de la reconnaissance des capacités et des talents. La réputation est assurée : lancez-vous !</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-44": {
           title: "Le Hasard",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame du "hasard" de l'oracle Belline comporte 2 éléments : une roue dans laquelle s'inscrit une fleur à 8 pétales surmontée d'une couronne. Placée sous le signe de Jupiter, elle signifie la chance aux jeux et les spéculations.</em></p><p><em>Prime ou promotion, travail rêvé pour le consultant en recherche d'emploi, tel est la carte qui s'annonce à vous. Si vous ne jouez pas aux jeux d'argent pourquoi ne pas essayer ? Attention je ne vous dis pas de dépenser à tout va mais bien de jouer modestement peut-être que la chance vous sourira ?</em></p><p><em>Dans les affaires, il y a transactions, commerce, les opportunités qu'il va falloir saisir. Si le consultant a des actions en bourse c'est le moment d'investir ou de vendre tout dépendra des cartes entourant la lame du hasard.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-45": {
           title: "Bonheur",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p><em>La lame du "bonheur" de l'oracle Belline comporte 3 éléments : une main surmontée d'une étoile à 6 branches couronnée. Placée sous le signe de Jupiter, elle est synonyme de hasard, de sagesse, de succès, c'est la bonne ou la mauvaise étoile.</em></p><p><em>Dans une confuguration positive, celle-ci est signe de réussite, du succès et de la joie que procure une telle situation. L'étoile, couronnée de réussite, annonce une période très heureuse dans la vie du consultant.</em></p><p><em>Dans la vie professionnelle, cette lame symbolise l'avancement, la nomination à un poste plus important. Pour le chef d'entreprise il s'agit de nouveaux contrats.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-46": {
           title: "Infortune",
