@@ -3477,17 +3477,17 @@ get_header(); ?>
           <p><strong style="color: yellow;">En résumé, peu importe la méthode de tirage choisie, l'interprétation des cartes est cruciale. Chaque lame de l'Oracle Belline a une signification propre qui peut varier en fonction de son positionnement et des cartes qui l'entourent.</strong></p><br><br>
 
           <div style="display: flex; flex-direction: column; gap: 15px;">
-            <div style="display: flex; align-items: center; gap: 15px;">
+            <div class="methode-link" data-methode-id="croix" style="display: flex; align-items: center; gap: 15px; cursor: pointer;">
               <div style="width: 30px; height: 30px; border-radius: 50%; background-color: #4da6ff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">1</div>
-              <h3 style="color: yellow; font-style: italic; margin: 0;">Tirage en croix</h3>
+              <h3 style="color: yellow; font-style: italic; margin: 0; text-decoration: underline;">Tirage en croix</h3>
             </div>
-            <div style="display: flex; align-items: center; gap: 15px;">
+            <div class="methode-link" data-methode-id="pyramide" style="display: flex; align-items: center; gap: 15px; cursor: pointer;">
               <div style="width: 30px; height: 30px; border-radius: 50%; background-color: #4da6ff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">2</div>
-              <h3 style="color: yellow; font-style: italic; margin: 0;">Tirage en pyramide</h3>
+              <h3 style="color: yellow; font-style: italic; margin: 0; text-decoration: underline;">Tirage en pyramide</h3>
             </div>
-            <div style="display: flex; align-items: center; gap: 15px;">
+            <div class="methode-link" data-methode-id="ligne" style="display: flex; align-items: center; gap: 15px; cursor: pointer;">
               <div style="width: 30px; height: 30px; border-radius: 50%; background-color: #4da6ff; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">3</div>
-              <h3 style="color: yellow; font-style: italic; margin: 0;">Tirage en ligne</h3>
+              <h3 style="color: yellow; font-style: italic; margin: 0; text-decoration: underline;">Tirage en ligne</h3>
             </div>
           </div>
         </div>
@@ -3498,10 +3498,138 @@ get_header(); ?>
         <h2>Planètes</h2>
         <p><em>Contenu à venir...</em></p>
       </div>
+
+      <!-- Methodes Modal -->
+      <div id="methode-modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 2000; justify-content: center; align-items: center;">
+        <div style="background: #2a2a2a; color: white; width: 90%; max-width: 800px; max-height: 90vh; overflow-y: auto; border-radius: 15px; position: relative; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);">
+          <button id="methode-modal-close" style="position: absolute; top: 15px; right: 20px; background: none; border: none; color: white; font-size: 24px; cursor: pointer; padding: 0; line-height: 1;">&times;</button>
+
+          <div id="methode-modal-content" style="padding: 20px; font-family: sans-serif; line-height: 1.6;">
+            <h2 id="methode-modal-title" style="color: yellow; text-align: center; font-size: 28px; margin-bottom: 20px; font-style: italic;"></h2>
+            <div id="methode-modal-body"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Close spa-container -->
 
     <script>
+      window.methodesData = {
+        "croix": {
+          title: "Tirage en croix",
+          body: `
+          <p>La méthode du tirage en croix permet d'avoir une vue d'ensemble sur une situation en répondant à une question précise. Voici comment se déroule généralement un tirage en croix avec l'Oracle Belline :</p>
+
+          <h3 style="color: yellow;">Étapes du Tirage en Croix :</h3>
+          <p>Disposition des cartes : On étale les cartes en forme de croix. Généralement, le tirage comporte cinq cartes disposées comme suit :</p>
+
+          <p><strong style="color: yellow;">Carte 1</strong> (Situation actuelle) : Tirez la première carte et placez-la au centre. Elle représente la situation actuelle ou le cœur du problème.<br>
+          <strong style="color: yellow;">Carte 2</strong> (Obstacles) : Tirez la deuxième carte et placez-la à gauche de la première. Elle symbolise les obstacles ou défis à surmonter.<br>
+          <strong style="color: yellow;">Carte 3</strong> (Passé) : Tirez la troisième carte et placez-la en haut. Elle évoque les influences passées qui ont conduit à la situation actuelle.<br>
+          <strong style="color: yellow;">Carte 4</strong> (Futur) : Tirez la quatrième carte et placez-la en bas. Elle donne un aperçu des résultats ou des développements futurs possibles.<br>
+          <strong style="color: yellow;">Carte 5</strong> (Conseil) : Tirez la cinquième carte et placez-la à droite de la première. Elle fournit des conseils ou des recommandations pour naviguer dans la situation.</p>
+
+          <div style="text-align: center; margin: 30px 0;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage1.PNG" alt="Exemple Tirage en Croix 1" style="max-width: 100%; border-radius: 10px;">
+            <br><br>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage2.PNG" alt="Exemple Tirage en Croix 2" style="max-width: 100%; border-radius: 10px;">
+          </div>
+
+          <h3 style="color: red; text-align: center; font-style: italic;">Interprétation des lames</h3>
+
+          <div style="text-align: center; margin-top: 20px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage3.PNG" alt="Lame du départ" style="max-width: 100%; border-radius: 10px;">
+          </div>
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame du départ</h4>
+          <p>Carte 1 (Présent) : La situation actuelle dans l'arcane "Le Départ" évoque souvent des thèmes de transition, de changement et de nouveaux départs. Cet arcane peut symboliser le fait de laisser derrière soi une phase de sa vie pour en entamer une nouvelle, marquée par des opportunités et des perspectives encourageantes.</p>
+          <p>Dans un contexte de questionnement ou de divination, "Le Départ" peut inviter à réfléchir sur les choix à faire, sur la nécessité de s'émanciper de certaines situations stagnantes ou de relations toxiques, ainsi que sur la volonté d'explorer l'inconnu. C'est un moment propice pour se projeter vers l'avenir, prendre des risques calculés et accueillir le changement avec optimisme.</p>
+          <p>Sur le plan émotionnel, cet lame peut aussi suggérer un besoin de se recentrer, de redéfinir ses priorités, et de s’éloigner de ce qui ne nous sert plus. Il peut signaler une période où il faut avoir le courage de se lever et de partir vers de nouveaux horizons, même si cela implique des incertitudes.</p>
+
+          <div style="text-align: center; margin-top: 30px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage4.PNG" alt="Lame du trafic" style="max-width: 100%; border-radius: 10px;">
+          </div>
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame du trafic</h4>
+          <p>Dans le contexte de l’Oracle Belline, la lame du Trafic, lorsqu’elle apparaît en position d’obstacle dans un tirage en croix, peut avoir plusieurs significations. Voici une interprétation générale de cette carte dans cette position :</p>
+          <p><strong style="color: yellow;">Perturbations et confusions</strong> : La lame du Trafic symbolise souvent des mouvements, des échanges ou des interactions qui peuvent être désordonnés. En tant qu’obstacle, elle indique qu’il peut y avoir des perturbations dans la communication ou des malentendus qui freinent votre progression. Cela peut aussi signifier que des informations contradictoires ou des influences extérieures compliquent la situation.</p>
+          <p><strong style="color: yellow;">Retards et blocages</strong> : Cette carte peut également signaler des retards dans des projets ou des situations en cours. Cela pourrait être dû à des imprévus ou à des complications qui nécessitent d’être résolues avant de pouvoir avancer.</p>
+          <p><strong style="color: yellow;">Distractions</strong> : La présence de cette carte en position d’obstacle peut également suggérer que vous êtes distrait par des éléments extérieurs ou des personnes qui vous détournent de vos objectifs. Il peut être nécessaire de recentrer votre attention sur ce qui est vraiment important pour vous.</p>
+          <p><strong style="color: yellow;">Risque de désengagement</strong> : La lame du Trafic peut également indiquer que vous pourriez être influencé par des forces extérieures qui vous poussent à vous éloigner de vos priorités ou de vos véritables intentions. Cela peut signifier qu’il est important de rester fidèle à soi-même et de ne pas se laisser entraîner dans des situations qui ne vous conviennent pas.</p>
+          <p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la lame du Trafic apparaît en position d’obstacle dans un tirage en croix de l’Oracle Belline, elle souligne la nécessité de faire attention aux perturbations, aux retards et aux distractions qui pourraient entraver votre progression. Il est essentiel d’évaluer les influences extérieures et de vous recentrer sur vos objectifs pour surmonter ces obstacles.</p>
+
+          <div style="text-align: center; margin-top: 30px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage5.PNG" alt="Lame de l'union" style="max-width: 100%; border-radius: 10px;">
+          </div>
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame de l'union</h4>
+          <p>Lorsque la lame de l’Union apparaît en position passée dans un tirage en croix de l’Oracle Belline, elle évoque des influences et des événements passés significatifs qui ont façonné votre situation actuelle. Voici quelques interprétations spécifiques :</p>
+          <p><strong style="color: yellow;">Relations importantes</strong> : La lame de l’Union symbolise généralement des liens étroits, que ce soit des relations amicales, familiales ou amoureuses. En position passée, cela indique que des relations clés ont eu un impact sur votre vie. Ces liens ont pu apporter du soutien, de l’harmonie ou des leçons précieuses.</p>
+          <p><strong style="color: yellow;">Partenariats réussis</strong> : Cette carte peut aussi faire référence à des collaborations ou des partenariats fructueux que vous avez eus dans le passé. Ces expériences de travail en équipe ou d’association ont pu contribuer à votre croissance personnelle ou professionnelle.</p>
+          <p><strong style="color: yellow;">Harmonie et équilibre</strong> : L’Union peut également signaler une période d’harmonie et d’équilibre dans vos interactions. Cela suggère que vous avez pu créer un environnement positif et stable, ce qui a influencé votre état d’esprit et vos décisions.</p>
+          <p><strong style="color: yellow;">Décisions communes</strong> : Cette carte peut représenter des choix importants faits en commun avec d’autres. Ces décisions ont pu façonner votre parcours et avoir des répercussions sur vos circonstances actuelles.</p>
+          <p><strong style="color: yellow;">Événements marquants</strong> : L’apparition de l’Union en position passée peut également signifier des événements marquants liés à des unions, comme un mariage, une réconciliation ou une célébration importante qui a eu lieu et qui a laissé une empreinte durable sur votre vie.</p>
+          <p><strong style="color: yellow;">Conclusion</strong> : Dans l’ensemble, la lame de l’Union en position passée dans un tirage en croix de l’Oracle Belline souligne l’importance des relations et des connexions dans votre histoire personnelle. Elle met en avant les influences positives que ces liens ont pu avoir sur votre développement et votre situation actuelle, tout en rappelant que les expériences passées continuent de jouer un rôle dans votre présent. Ce tirage vous encourage à réfléchir sur ces relations et à reconnaître leur impact sur votre cheminement.</p>
+
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 30px;">Lame du bonheur</h4>
+          <p>Lorsque la lame du Bonheur apparaît en position future dans un tirage en croix de l’Oracle Belline, elle porte des significations très positives et encourageantes. Voici quelques interprétations possibles :</p>
+          <p><strong style="color: yellow;">Promesse de joie</strong> : La carte du Bonheur indique que des moments de joie, de satisfaction et de plénitude vous attendent. Elle suggère que des expériences positives et enrichissantes sont à venir, vous apportant un sentiment de réussite et de bonheur.</p>
+          <p><strong style="color: yellow;">Accomplissement personnel</strong> : En position future, cette lame peut signifier que vous serez en mesure d’atteindre des objectifs personnels qui vous tiennent à cœur. Cela peut être lié à des projets, des relations ou des aspirations que vous avez mis en place.</p>
+          <p><strong style="color: yellow;">Harmonie dans les relations</strong> : La présence du Bonheur en futur peut également indiquer que vos relations, qu’elles soient amicales, familiales ou amoureuses, vont se renforcer et se développer positivement. Vous pourriez connaître des moments de partage et de complicité qui renforceront vos liens.</p>
+          <p><strong style="color: yellow;">Climat positif</strong> : Cette carte est souvent associée à un climat de bien-être et de sérénité. Elle suggère que vous aurez l’occasion de profiter de la vie, de célébrer des succès et de vous entourer de personnes qui vous apportent du bonheur.</p>
+          <p><strong style="color: yellow;">État d’esprit positif</strong> : Elle peut également évoquer un changement d’état d’esprit vers une attitude plus optimiste. Cela peut indiquer que vous serez en mesure de surmonter des défis et d’adopter une perspective qui favorise le bonheur.</p>
+          <p><strong style="color: yellow;">Conclusion</strong> : En résumé, la lame du Bonheur en position future dans un tirage en croix de l’Oracle Belline est un excellent présage. Elle annonce des périodes de joie, d’accomplissement et de satisfaction à venir. Ce tirage vous encourage à rester ouvert aux opportunités de bonheur et à cultiver des relations positives, tout en vous préparant à accueillir les moments heureux qui se profilent à l’horizon.</p>
+
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 30px;">Lame de l'argent</h4>
+          <p>Lorsque la lame de l’Argent apparaît en position de résultat dans un tirage en croix de l’Oracle Belline, elle peut avoir plusieurs significations positives et encourageantes liées à la prospérité, la réussite matérielle et les ressources. Voici quelques interprétations possibles :</p>
+          <p><strong style="color: yellow;">Prospérité financière</strong> : La lame de l’Argent indique souvent une amélioration de votre situation financière. Cela peut signifier que vous êtes sur le point de récolter les fruits de vos efforts, que ce soit à travers une augmentation de vos revenus, un gain inattendu ou une opportunité lucrative.</p>
+          <p><strong style="color: yellow;">Stabilité matérielle</strong> : En position de résultat, cette carte suggère que vous atteindrez une certaine stabilité matérielle. Cela peut impliquer un équilibre dans vos finances, vous permettant de vous sentir plus en sécurité et serein quant à votre avenir.</p>
+          <p><strong style="color: yellow;">Réussite dans projects</strong> : Si vous avez travaillé sur des projets professionnels ou des investissements, la présence de la lame de l’Argent en position de résultat peut indiquer que ces initiatives porteront leurs fruits et que vous obtiendrez des résultats positifs.</p>
+          <p><strong style="color: yellow;">Évaluation des priorités</strong> : Cette carte peut aussi vous inviter à réfléchir à la manière dont vous gérez vos ressources et vos finances. Elle peut être un encouragement à prendre des décisions éclairées concernant vos dépenses et vos investissements pour assurer un avenir prospère.</p>
+          <p><strong style="color: yellow;">Récompense des efforts</strong> : La lame de l’Argent en position de résultat peut également symboliser la reconnaissance de vos efforts. Cela peut être lié à une promotion, une prime ou une forme de récompense qui valorise votre travail acharné.</p>
+          <p><strong style="color: yellow;">Conclusion</strong> : En résumé, la lame de l’Argent en position de résultat dans un tirage en croix de l’Oracle Belline est un signe très positif. Elle suggère que vous êtes sur la voie de la prospérité et que vos efforts seront récompensés sur le plan matériel. Ce tirage vous encourage à continuer à travailler vers vos objectifs tout en restant attentif à la gestion de vos ressources pour maximiser votre succès futur.</p>
+          `
+        },
+        "pyramide": {
+          title: "Tirage en pyramide",
+          body: "<p><em>Contenu à venir...</em></p>"
+        },
+        "ligne": {
+          title: "Tirage en ligne",
+          body: "<p><em>Contenu à venir...</em></p>"
+        }
+      };
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const methodeModalOverlay = document.getElementById("methode-modal-overlay");
+        const methodeCloseBtn = document.getElementById("methode-modal-close");
+        const methodeModalTitle = document.getElementById("methode-modal-title");
+        const methodeModalBody = document.getElementById("methode-modal-body");
+
+        document.querySelectorAll(".methode-link").forEach((container) => {
+          container.addEventListener("click", function () {
+            const methodeId = this.getAttribute("data-methode-id");
+
+            if (methodeId && window.methodesData[methodeId]) {
+              methodeModalTitle.textContent = window.methodesData[methodeId].title;
+              methodeModalBody.innerHTML = window.methodesData[methodeId].body;
+              methodeModalOverlay.style.display = "flex";
+            }
+          });
+        });
+
+        if (methodeCloseBtn) {
+          methodeCloseBtn.addEventListener("click", function () {
+            methodeModalOverlay.style.display = "none";
+          });
+        }
+
+        if (methodeModalOverlay) {
+          methodeModalOverlay.addEventListener("click", function (e) {
+            if (e.target === methodeModalOverlay) {
+              methodeModalOverlay.style.display = "none";
+            }
+          });
+        }
+      });
+
             window.tarotsData = {
         "tarot-1": {
           title: "Le Bateleur",
