@@ -874,7 +874,324 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <!-- Modal pour les cartes -->
+
+                </div>
+
+
+            </div>
+        </div>
+
+                        <!-- Oracle Belline Content -->
+        <div id="content-belline" class="spa-content-section">
+            <h2 style="color: #ffcc00; text-align: center; font-style: italic;">Les lames de l'Oracle Belline</h2>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/09_oracle_belline.png" alt="Oracle Belline Cards" style="max-width: 200px; height: auto;">
+            </div>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">L'interprétation des cartes du Jeu de Belline requiert une bonne maîtrise des symboles ainsi qu'une sensibilité intuitive. Chaque carte peut apporter des éclairages sur des enjeux émotionnels, spirituels ou pratiques, et leur association peut mettre en lumière des dynamiques profondes de la situation examinée.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">Le Jeu de Belline dépasse le cadre d'un simple outil de divination ; il constitue un véritable chemin vers la connaissance de soi et la compréhension des événements de la vie. Ce jeu propose une diversité d'interprétations qui permettent d'explorer des aspects cachés de votre existence. En tant qu'instrument de voyance, il encourage la réflexion et l'introspection, tout en ouvrant des perspectives vers l'avenir.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">D'après les dires de Belline, une consultante qui déménageait pour se retirer à la campagne lui aurait demandé de venir prendre chez elle des documents qui pourraient l'intéresser. Il s'y serait rendu et aurait découvert ainsi des jeux de cartes et un manuscrit qui auraient pu être daté de plus d'un siècle et auraient pu appartenir à l'un des prédécesseurs dans les lieux, le célèbre Mage Edmond qui en son temps aurait prédit entre autres choses le succès littéraire à Alexandre Dumas, etc...</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">L'oracle de Belline est composé de cinquante-trois lames. Quatre d'entre elles sont indépendantes et les quarante-neuf lames restantes sont divisées en sept groupes de sept cartes, chaque groupe est sous l'influence d'une des sept planètes : La Lune, le Soleil, Mercure, Vénus, Mars, Jupiter et enfin Saturne.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center;">Si vous vous tirez les cartes, prenez en compte les cartes à la gauche et à la droite des lames et définissez le sens particulier de celles-ci En effet, si une ou plusieurs cartes négatives entourent la lame tirée cela signifie qu'un évènement positif ne verra pas le jour ou qu'il sera atténué voir repoussé Dans le cas contraire et si cette lame est entourée par une ou deux cartes bénéfiques alors vous pourrez voir naître un changement positif.</p>
+
+            <p style="font-style: italic; font-weight: bold; text-align: center; margin-bottom: 30px;">Pour obtenir de plus amples informations sur la signification des lames de l'Oracle Belline il vous suffit de cliquer sur la carte de votre choix.</p>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames qui ne sont pas sous influence planétaire</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-0" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Carte Bleue</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/0-carte-bleue.jpg" alt="Carte Bleue" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-1" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Destinée</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/1-la-destinee.jpg" alt="La Destinée" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-2" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Etoile de l'Homme</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/2-etoile-homme.jpg" alt="L'Etoile de l'Homme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-3" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Etoile de la Femme</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/3-etoile-femme.jpg" alt="L'Etoile de la Femme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence du Soleil</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-4" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Nativité</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/4-nativite.jpg" alt="La Nativité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-5" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Réussite</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/5-reussite.jpg" alt="Réussite" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-6" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Élévation</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/6-elevation.jpg" alt="Élévation" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-7" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Honneurs</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/7-honneurs.jpg" alt="Honneurs" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-8" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Pensée Amitié</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/8-pensee.jpg" alt="Pensée Amitié" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-9" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Campagne Santé</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/9-campagne.jpg" alt="Campagne Santé" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-10" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Présents</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/10-presents.jpg" alt="Présents" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de la Lune</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-11" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Trahison</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/11-trahison.jpg" alt="Trahison" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-12" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Départ</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/12-depart.jpg" alt="Départ" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-13" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Inconstance</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/13-inconstance.jpg" alt="Inconstance" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-14" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Découverte</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/14-decouverte.jpg" alt="Découverte" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-15" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Eau</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/15-eau.jpg" alt="L'Eau" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-16" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Les Pénates</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/16-penates.jpg" alt="Les Pénates" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-17" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Maladie</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/17-maladie.jpg" alt="Maladie" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mercure</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-18" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Changement</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/18-changement.jpg" alt="Changement" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-19" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Argent</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg" alt="L'Argent" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-20" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Intelligence</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/20-intelligence.jpg" alt="L'Intelligence" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-21" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Vol Perte</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/21-vol.jpg" alt="Vol Perte" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-22" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Entreprises</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/22-entreprises.jpg" alt="Entreprises" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-23" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Trafic</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/23-trafic.jpg" alt="Trafic" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-24" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Nouvelle</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/24-nouvelle.jpg" alt="Nouvelle" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Vénus</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-25" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Plaisirs</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/25-plaisirs.jpg" alt="Plaisirs" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-26" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Paix</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/26-paix.jpg" alt="La Paix" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-27" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Union</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/27-union.jpg" alt="Union" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-28" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Famille</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/28-famille.jpg" alt="Famille" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-29" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Amour</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/29-amour.jpg" alt="Amour" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-30" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Table</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/30-table.jpg" alt="La Table" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-31" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Passions</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/31-passions.jpg" alt="Passions" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mars</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-32" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Méchanceté</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/32-mechancete.jpg" alt="Méchanceté" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-33" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Procès</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/33-proces.jpg" alt="Procès" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-34" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Despotisme</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/34-despotisme.jpg" alt="Despotisme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-35" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Ennemis</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/35-ennemis.jpg" alt="Ennemis" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-36" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Pourparlers</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/36-pourparlers.jpg" alt="Pourparlers" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-37" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Le Feu</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/37-feu.jpg" alt="Le Feu" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-38" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Accident</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/38-accident.jpg" alt="Accident" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Jupiter</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-39" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Appui</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg" alt="Appui" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-40" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Beauté</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg" alt="Beauté" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-41" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Héritage</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg" alt="Héritage" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-42" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Sagesse</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg" alt="Sagesse" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-43" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Renommée</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg" alt="La Renommée" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-44" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Le Hasard</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg" alt="Le Hasard" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-45" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Bonheur</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg" alt="Bonheur" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Saturne</h3>
+            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
+                <div class="carte-container" data-card-id="belline-46" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Infortune</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg" alt="Infortune" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-47" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Stérilité</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg" alt="Stérilité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-48" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Fatalité</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg" alt="Fatalité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-49" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Grâce</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg" alt="La Grâce" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-50" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Ruine</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg" alt="Ruine" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-51" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Retard</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg" alt="Retard" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-52" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Cloître</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg" alt="Cloître" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Les Tarots Content -->
+        <div id="content-tarots" class="spa-content-section">
+            <h2>Les Tarots</h2>
+            <p><em>Contenu à venir...</em></p>
+        </div>
+
+        <!-- Méthodes Content -->
+        <div id="content-methodes" class="spa-content-section">
+            <h2>Méthodes</h2>
+            <p><em>Contenu à venir...</em></p>
+        </div>
+
+        <!-- Planètes Content -->
+        <div id="content-planetes" class="spa-content-section">
+            <h2>Planètes</h2>
+            <p><em>Contenu à venir...</em></p>
+        </div>
+
+    </div>
+    </div> <!-- Close spa-container -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.spa-button');
+            const sections = document.querySelectorAll('.spa-content-section');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetId = 'content-' + this.getAttribute('data-target');
+
+                    // Hide all sections
+                    sections.forEach(section => {
+                        section.classList.remove('active');
+                    });
+
+                    // Show target section
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+
+<!-- Modal pour les cartes -->
                 <div id="carte-modal-overlay" class="carte-modal-overlay">
                     <div class="carte-modal-content">
                         <span class="carte-modal-close">&times;</span>
@@ -886,9 +1203,8 @@ get_header(); ?>
                             <!-- Le texte sera injecté ici -->
                         </div>
                     </div>
-                </div>
 
-                <script>
+<script>
                     window.cartesData = {
                         "belline-0": {
                             title: "Carte Bleue",
@@ -1507,318 +1823,6 @@ complémentaires et affiner la situation.</p>`
                         });
                     });
                 </script>
-            </div>
-        </div>
-
-                        <!-- Oracle Belline Content -->
-        <div id="content-belline" class="spa-content-section">
-            <h2 style="color: #ffcc00; text-align: center; font-style: italic;">Les lames de l'Oracle Belline</h2>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/09_oracle_belline.png" alt="Oracle Belline Cards" style="max-width: 200px; height: auto;">
-            </div>
-
-            <p style="font-style: italic; font-weight: bold; text-align: center;">L'interprétation des cartes du Jeu de Belline requiert une bonne maîtrise des symboles ainsi qu'une sensibilité intuitive. Chaque carte peut apporter des éclairages sur des enjeux émotionnels, spirituels ou pratiques, et leur association peut mettre en lumière des dynamiques profondes de la situation examinée.</p>
-
-            <p style="font-style: italic; font-weight: bold; text-align: center;">Le Jeu de Belline dépasse le cadre d'un simple outil de divination ; il constitue un véritable chemin vers la connaissance de soi et la compréhension des événements de la vie. Ce jeu propose une diversité d'interprétations qui permettent d'explorer des aspects cachés de votre existence. En tant qu'instrument de voyance, il encourage la réflexion et l'introspection, tout en ouvrant des perspectives vers l'avenir.</p>
-
-            <p style="font-style: italic; font-weight: bold; text-align: center;">D'après les dires de Belline, une consultante qui déménageait pour se retirer à la campagne lui aurait demandé de venir prendre chez elle des documents qui pourraient l'intéresser. Il s'y serait rendu et aurait découvert ainsi des jeux de cartes et un manuscrit qui auraient pu être daté de plus d'un siècle et auraient pu appartenir à l'un des prédécesseurs dans les lieux, le célèbre Mage Edmond qui en son temps aurait prédit entre autres choses le succès littéraire à Alexandre Dumas, etc...</p>
-
-            <p style="font-style: italic; font-weight: bold; text-align: center;">L'oracle de Belline est composé de cinquante-trois lames. Quatre d'entre elles sont indépendantes et les quarante-neuf lames restantes sont divisées en sept groupes de sept cartes, chaque groupe est sous l'influence d'une des sept planètes : La Lune, le Soleil, Mercure, Vénus, Mars, Jupiter et enfin Saturne.</p>
-
-            <p style="font-style: italic; font-weight: bold; text-align: center;">Si vous vous tirez les cartes, prenez en compte les cartes à la gauche et à la droite des lames et définissez le sens particulier de celles-ci En effet, si une ou plusieurs cartes négatives entourent la lame tirée cela signifie qu'un évènement positif ne verra pas le jour ou qu'il sera atténué voir repoussé Dans le cas contraire et si cette lame est entourée par une ou deux cartes bénéfiques alors vous pourrez voir naître un changement positif.</p>
-
-            <p style="font-style: italic; font-weight: bold; text-align: center; margin-bottom: 30px;">Pour obtenir de plus amples informations sur la signification des lames de l'Oracle Belline il vous suffit de cliquer sur la carte de votre choix.</p>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames qui ne sont pas sous influence planétaire</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-0" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Carte Bleue</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/0-carte-bleue.jpg" alt="Carte Bleue" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-1" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">La Destinée</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/1-la-destinee.jpg" alt="La Destinée" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-2" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">L'Etoile de l'Homme</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/2-etoile-homme.jpg" alt="L'Etoile de l'Homme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-3" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">L'Etoile de la Femme</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/3-etoile-femme.jpg" alt="L'Etoile de la Femme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence du Soleil</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-4" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">La Nativité</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/4-nativite.jpg" alt="La Nativité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-5" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Réussite</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/5-reussite.jpg" alt="Réussite" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-6" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Élévation</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/6-elevation.jpg" alt="Élévation" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-7" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Honneurs</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/7-honneurs.jpg" alt="Honneurs" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-8" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Pensée Amitié</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/8-pensee.jpg" alt="Pensée Amitié" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-9" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Campagne Santé</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/9-campagne.jpg" alt="Campagne Santé" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-10" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Présents</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/10-presents.jpg" alt="Présents" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de la Lune</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-11" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Trahison</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/11-trahison.jpg" alt="Trahison" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-12" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Départ</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/12-depart.jpg" alt="Départ" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-13" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Inconstance</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/13-inconstance.jpg" alt="Inconstance" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-14" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Découverte</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/14-decouverte.jpg" alt="Découverte" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-15" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">L'Eau</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/15-eau.jpg" alt="L'Eau" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-16" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Les Pénates</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/16-penates.jpg" alt="Les Pénates" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-17" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Maladie</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/17-maladie.jpg" alt="Maladie" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mercure</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-18" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Changement</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/18-changement.jpg" alt="Changement" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-19" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">L'Argent</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg" alt="L'Argent" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-20" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">L'Intelligence</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/20-intelligence.jpg" alt="L'Intelligence" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-21" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Vol Perte</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/21-vol.jpg" alt="Vol Perte" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-22" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Entreprises</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/22-entreprises.jpg" alt="Entreprises" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-23" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Trafic</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/23-trafic.jpg" alt="Trafic" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-24" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Nouvelle</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/24-nouvelle.jpg" alt="Nouvelle" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Vénus</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-25" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Plaisirs</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/25-plaisirs.jpg" alt="Plaisirs" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-26" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">La Paix</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/26-paix.jpg" alt="La Paix" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-27" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Union</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/27-union.jpg" alt="Union" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-28" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Famille</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/28-famille.jpg" alt="Famille" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-29" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Amour</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/29-amour.jpg" alt="Amour" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-30" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">La Table</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/30-table.jpg" alt="La Table" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-31" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Passions</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/31-passions.jpg" alt="Passions" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mars</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-32" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Méchanceté</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/32-mechancete.jpg" alt="Méchanceté" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-33" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Procès</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/33-proces.jpg" alt="Procès" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-34" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Despotisme</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/34-despotisme.jpg" alt="Despotisme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-35" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Ennemis</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/35-ennemis.jpg" alt="Ennemis" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-36" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Pourparlers</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/36-pourparlers.jpg" alt="Pourparlers" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-37" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Le Feu</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/37-feu.jpg" alt="Le Feu" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-38" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Accident</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/38-accident.jpg" alt="Accident" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Jupiter</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-39" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Appui</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg" alt="Appui" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-40" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Beauté</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg" alt="Beauté" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-41" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Héritage</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg" alt="Héritage" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-42" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Sagesse</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg" alt="Sagesse" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-43" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">La Renommée</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg" alt="La Renommée" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-44" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Le Hasard</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg" alt="Le Hasard" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-45" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Bonheur</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg" alt="Bonheur" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-            <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Saturne</h3>
-            <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <div class="carte-container" data-card-id="belline-46" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Infortune</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg" alt="Infortune" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-47" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Stérilité</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg" alt="Stérilité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-48" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Fatalité</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg" alt="Fatalité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-49" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">La Grâce</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg" alt="La Grâce" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-50" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Ruine</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg" alt="Ruine" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-51" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Retard</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg" alt="Retard" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-                <div class="carte-container" data-card-id="belline-52" style="width: 80px; margin-bottom: 20px;">
-                    <div class="carte-tooltip">Cloître</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg" alt="Cloître" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Les Tarots Content -->
-        <div id="content-tarots" class="spa-content-section">
-            <h2>Les Tarots</h2>
-            <p><em>Contenu à venir...</em></p>
-        </div>
-
-        <!-- Méthodes Content -->
-        <div id="content-methodes" class="spa-content-section">
-            <h2>Méthodes</h2>
-            <p><em>Contenu à venir...</em></p>
-        </div>
-
-        <!-- Planètes Content -->
-        <div id="content-planetes" class="spa-content-section">
-            <h2>Planètes</h2>
-            <p><em>Contenu à venir...</em></p>
-        </div>
-
-    </div>
-    </div> <!-- Close spa-container -->
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const buttons = document.querySelectorAll('.spa-button');
-            const sections = document.querySelectorAll('.spa-content-section');
-
-            buttons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const targetId = 'content-' + this.getAttribute('data-target');
-
-                    // Hide all sections
-                    sections.forEach(section => {
-                        section.classList.remove('active');
-                    });
-
-                    // Show target section
-                    const targetSection = document.getElementById(targetId);
-                    if (targetSection) {
-                        targetSection.classList.add('active');
-                    }
-                });
-            });
-        });
-    </script>
 
 </main><!-- #main -->
 
