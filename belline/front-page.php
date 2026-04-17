@@ -3286,9 +3286,114 @@ get_header(); ?>
       </div>
 
       <!-- Les Tarots Content -->
-      <div id="content-tarots" class="spa-content-section">
+            <div id="content-tarots" class="spa-content-section">
         <h2>Les Tarots</h2>
-        <p><em>Contenu à venir...</em></p>
+
+        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 2rem;">
+            <p style="max-width: 800px; margin-bottom: 1rem;">
+                Le Tarot est considéré comme l'un des jeux les plus riches en symboles et en enseignements spirituels, et il est très apprécié des cartomanciens et des professionnels des arts divinatoires.
+            </p>
+            <p style="max-width: 800px; margin-bottom: 1rem;">
+                Composé de 78 cartes, le Tarot se divise en deux groupes principaux : les arcanes majeurs (22 cartes) et les arcanes mineurs (56 cartes). Les arcanes majeurs représentent les grandes étapes de la vie, les forces universelles et les leçons spirituelles, tandis que les arcanes mineurs se concentrent sur les aspects plus quotidiens de l'existence, tels que les relations, le travail, les émotions et les défis matériels.
+            </p>
+            <p style="max-width: 800px; margin-bottom: 1rem;">
+                Les tirages de Tarot peuvent être utilisés de différentes manières. Certains préfèrent des tirages simples pour répondre à une question précise, tandis que d'autres utilisent des tirages plus complexes, comme la croix celtique, pour explorer en profondeur une situation donnée. Les professionnels de la voyance utilisent leur intuition et leur connaissance des symboles pour interpréter les cartes et fournir des conseils personnalisés à leurs consultants.
+            </p>
+            <p style="max-width: 800px; margin-bottom: 1rem;">
+                Cependant, il est important de noter que le Tarot ne prédit pas l'avenir de manière rigide, mais offre plutôt des perspectives et des conseils pour aider à prendre des décisions éclairées et à naviguer à travers les défis de la vie de manière plus consciente.
+            </p>
+        </div>
+
+        <div class="cartes-grid">
+          <div class="carte-container" data-tarot-id="tarot-1">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/1.jpg" alt="Tarot 1" />
+            <div class="carte-title">Le Bateleur</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-2">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/2.jpg" alt="Tarot 2" />
+            <div class="carte-title">La Papesse</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-3">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/3.jpg" alt="Tarot 3" />
+            <div class="carte-title">L'Impératrice</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/4.jpg" alt="Tarot 4" />
+            <div class="carte-title">L'Empereur</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-5">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/5.jpg" alt="Tarot 5" />
+            <div class="carte-title">Le Pape</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-6">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/6.jpg" alt="Tarot 6" />
+            <div class="carte-title">L'Amoureux</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-7">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/7.jpg" alt="Tarot 7" />
+            <div class="carte-title">Le Chariot</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-8">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/8.jpg" alt="Tarot 8" />
+            <div class="carte-title">La Justice</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-9">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/9.jpg" alt="Tarot 9" />
+            <div class="carte-title">L'Ermite</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-10">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/10.jpg" alt="Tarot 10" />
+            <div class="carte-title">La Roue de Fortune</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-11">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/11.jpg" alt="Tarot 11" />
+            <div class="carte-title">La Force</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-12">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/12.jpg" alt="Tarot 12" />
+            <div class="carte-title">Le Pendu</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-13">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/13.jpg" alt="Tarot 13" />
+            <div class="carte-title">L'Arcane sans nom</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-14">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/14.jpg" alt="Tarot 14" />
+            <div class="carte-title">Tempérance</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-15">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/15.jpg" alt="Tarot 15" />
+            <div class="carte-title">Le Diable</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-16">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/16.jpg" alt="Tarot 16" />
+            <div class="carte-title">La Maison Dieu</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-17">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/17.jpg" alt="Tarot 17" />
+            <div class="carte-title">L'Étoile</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-18">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/18.jpg" alt="Tarot 18" />
+            <div class="carte-title">La Lune</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-19">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/19.jpg" alt="Tarot 19" />
+            <div class="carte-title">Le Soleil</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-20">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/20.jpg" alt="Tarot 20" />
+            <div class="carte-title">Le Jugement</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-21">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/21.jpg" alt="Tarot 21" />
+            <div class="carte-title">Le Monde</div>
+          </div>
+          <div class="carte-container" data-tarot-id="tarot-22">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tarots/22.jpg" alt="Tarot 22" />
+            <div class="carte-title">Le Mat</div>
+          </div>
+        </div>
       </div>
 
       <!-- Méthodes Content -->
@@ -3306,6 +3411,119 @@ get_header(); ?>
     <!-- Close spa-container -->
 
     <script>
+            window.tarotsData = {
+        "tarot-1": {
+          title: "Le Bateleur",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/1.jpg",
+          text: `Le texte pour la carte Le Bateleur sera ajouté prochainement.`,
+        },
+        "tarot-2": {
+          title: "La Papesse",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/2.jpg",
+          text: `Le texte pour la carte La Papesse sera ajouté prochainement.`,
+        },
+        "tarot-3": {
+          title: "L'Impératrice",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/3.jpg",
+          text: `Le texte pour la carte L'Impératrice sera ajouté prochainement.`,
+        },
+        "tarot-4": {
+          title: "L'Empereur",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/4.jpg",
+          text: `Le texte pour la carte L'Empereur sera ajouté prochainement.`,
+        },
+        "tarot-5": {
+          title: "Le Pape",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/5.jpg",
+          text: `Le texte pour la carte Le Pape sera ajouté prochainement.`,
+        },
+        "tarot-6": {
+          title: "L'Amoureux",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/6.jpg",
+          text: `Le texte pour la carte L'Amoureux sera ajouté prochainement.`,
+        },
+        "tarot-7": {
+          title: "Le Chariot",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/7.jpg",
+          text: `Le texte pour la carte Le Chariot sera ajouté prochainement.`,
+        },
+        "tarot-8": {
+          title: "La Justice",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/8.jpg",
+          text: `Le texte pour la carte La Justice sera ajouté prochainement.`,
+        },
+        "tarot-9": {
+          title: "L'Ermite",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/9.jpg",
+          text: `Le texte pour la carte L'Ermite sera ajouté prochainement.`,
+        },
+        "tarot-10": {
+          title: "La Roue de Fortune",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/10.jpg",
+          text: `Le texte pour la carte La Roue de Fortune sera ajouté prochainement.`,
+        },
+        "tarot-11": {
+          title: "La Force",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/11.jpg",
+          text: `Le texte pour la carte La Force sera ajouté prochainement.`,
+        },
+        "tarot-12": {
+          title: "Le Pendu",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/12.jpg",
+          text: `Le texte pour la carte Le Pendu sera ajouté prochainement.`,
+        },
+        "tarot-13": {
+          title: "L'Arcane sans nom",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/13.jpg",
+          text: `Le texte pour la carte L'Arcane sans nom sera ajouté prochainement.`,
+        },
+        "tarot-14": {
+          title: "Tempérance",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/14.jpg",
+          text: `Le texte pour la carte Tempérance sera ajouté prochainement.`,
+        },
+        "tarot-15": {
+          title: "Le Diable",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/15.jpg",
+          text: `Le texte pour la carte Le Diable sera ajouté prochainement.`,
+        },
+        "tarot-16": {
+          title: "La Maison Dieu",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/16.jpg",
+          text: `Le texte pour la carte La Maison Dieu sera ajouté prochainement.`,
+        },
+        "tarot-17": {
+          title: "L'Étoile",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/17.jpg",
+          text: `Le texte pour la carte L'Étoile sera ajouté prochainement.`,
+        },
+        "tarot-18": {
+          title: "La Lune",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/18.jpg",
+          text: `Le texte pour la carte La Lune sera ajouté prochainement.`,
+        },
+        "tarot-19": {
+          title: "Le Soleil",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/19.jpg",
+          text: `Le texte pour la carte Le Soleil sera ajouté prochainement.`,
+        },
+        "tarot-20": {
+          title: "Le Jugement",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/20.jpg",
+          text: `Le texte pour la carte Le Jugement sera ajouté prochainement.`,
+        },
+        "tarot-21": {
+          title: "Le Monde",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/21.jpg",
+          text: `Le texte pour la carte Le Monde sera ajouté prochainement.`,
+        },
+        "tarot-22": {
+          title: "Le Mat",
+          image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/22.jpg",
+          text: `Le texte pour la carte Le Mat sera ajouté prochainement.`,
+        },
+      };
+
       document.addEventListener("DOMContentLoaded", function () {
         const buttons = document.querySelectorAll(".spa-button");
         const sections = document.querySelectorAll(".spa-content-section");
@@ -4139,10 +4357,17 @@ complémentaires et affiner la situation.</p>`,
         document.querySelectorAll(".carte-container").forEach((container) => {
           container.addEventListener("click", function () {
             const cardId = this.getAttribute("data-card-id");
-            if (window.cartesData[cardId]) {
+            const tarotId = this.getAttribute("data-tarot-id");
+
+            if (cardId && window.cartesData[cardId]) {
               modalTitle.textContent = window.cartesData[cardId].title;
               modalImg.src = window.cartesData[cardId].image;
               modalText.innerHTML = window.cartesData[cardId].text;
+              modalOverlay.style.display = "flex";
+            } else if (tarotId && window.tarotsData[tarotId]) {
+              modalTitle.textContent = window.tarotsData[tarotId].title;
+              modalImg.src = window.tarotsData[tarotId].image;
+              modalText.innerHTML = window.tarotsData[tarotId].text;
               modalOverlay.style.display = "flex";
             }
           });
