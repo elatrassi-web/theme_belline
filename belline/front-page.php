@@ -3802,7 +3802,7 @@ complémentaires et affiner la situation.</p>`,
           title: "Sagesse",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg",
-          text: `<p><em>La lame de "la sagesse" de l'oracle Belline comporte 1 élément central : un hibou couronné. Placée sous le signe de Jupiter, elle signifie la sagesse, la prudence, la modération. (Note: le texte fourni semble être celui de la Renommée, voici une interprétation générique en attendant la bonne).</em></p><p><em>Elle invite à la réflexion, à prendre du recul avant d'agir et à faire preuve de discernement. C'est une période propice à l'apprentissage et à l'acquisition de connaissances.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
+          text: `<p><em>La lame de "la sagesse" de l'oracle Belline comporte 1 élément central : un hibou couronné. Placée sous le signe de Jupiter, elle signifie la sagesse, la prudence, la modération.</em></p><p><em>Elle invite à la réflexion, à prendre du recul avant d'agir et à faire preuve de discernement. C'est une période propice à l'apprentissage et à l'acquisition de connaissances.</em></p><p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`,
         },
         "belline-43": {
           title: "La Renommée",
@@ -3826,43 +3826,47 @@ complémentaires et affiner la situation.</p>`,
           title: "Infortune",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame "l'infortune” de l'oracle Belline comporte 3 éléments : une mendiante agée et voutée, s'appuyant sur une béquille, pieds nus tendant la main pour recevoir l'obole et un sac en bandoulière. Placée sous le signe de Saturne, elle symbolise l infortune, la pauvreté, la tristesse, la solitude et la souffrance. La vieille dame éprouve des difficultés à marcher, mais continue d'avancer ce qui indique que la situation avance tant bien que mal. Cette carte évoque des difficultés qui viennent ralentir le consultant dans son expansion sociale. Pour un chef d'entreprise, il y a rupture de contrat, baisse du chiffre d'affaire voir licenciement ou encore cessation d'activité. Pour l'employé il y a un fort risque de licenciement Cette lame représente également la malchance tant professionelle que matérielle. Le consultant éprouve des difficultés à progresser. Il est frappé par la malchance et de gros problèmes financiers Accompagnée de bonnes cartes, la situation sera momentanée Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</p>`,
         },
         "belline-47": {
           title: "Stérilité",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame "la stérilité" de l'oracle Belline comporte 1 élément : une ile en plein milieu de l'océan. Placée sous le signe de Saturne, elle est synonyme de tentative vaine, de contrariété, de difficulté, d'impasse et d'isolement.</p>
+<p>Côté coeur, le consultant est dans l'impasse, il y a séparation, divorce.</p>
+<p>Côté travail, le consultant fait du surplace</p>
+<p>Il y a échec dans les efforts ou les tentavies d'avancement, le consultant est amené à ce recentrer sur lui même, à faire preuve d'introspection. Accompagnée de bonnes cartes, le rocher évoque le lieu de paix et de spiritualité et de connaissance, Elle est un refuge ou l'on peut se remettre en question, méditer sur son avenir et reprendre sa vie en main.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</p>`,
         },
         "belline-48": {
           title: "Fatalité",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame forte "la fatalité" de l'oracle Belline comporte 2 éléments : un homme qui tient dans la main une faux et dans l'autre main un martinet (sorte de gros marteaux que l'on faisait retomber sur le fer pour façonner la faux). Placée sous le signe de Saturne, elle est synonyme de finalité, de conclusion, de dénouement, d'épilogue et de mort au sens propre du terme. Accompagnée de bonnes cartes, il est temps de récolter les fruits d'un dur labeur. Si l'on est entrepreneur, il est temps de vendre ou de prendre sa retraite ou de faire fructifier son épargne tout dépend du recouvrement des cartes. Elle symbolise également l'éxistence d'épreuves destinées à faire prendre conscience au consultant ses erreurs du passé afin de les rectifier. elle peut également indiquer de grosses pertes financières, un important contrat annulé, la cessation d'activité. Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</p>`,
         },
         "belline-49": {
           title: "La Grâce",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame "la grâce" de l'oracle Belline comporte 2 éléments : une colombe qui descend du sommet de la lame et un triangle ou une montagne. Placée sous le signe de Saturne, elle signifie la stabilité, la compassion, la prière qui pourrait être exaucée. Elle annonce également la foi et la protection divine, la sagesse et la spiritualité Le consultant est intuitif ce qui lui permet de résoudre les problémes en cours. Cette intuition peut surgir après une période d'épreuves, à un moment où on ne l'attendait pas. Il peut s'agir d'une aide financière providentielle ou d'un conseil tombé du ciel Le consultant peut faire une rencontre innatendue à un moment où il ne l'espérait plus. Dans d'autres cas il s'agira d'un amour platonique. Quoi qu'il en soit, les sentiments évoluent dans un contexte heureux, tranquille et paisible. Si cette lame est entourée par "Amor" il s'agira d ‘un amour fusionnel, emplie de plénitude, une union durable. Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</p>`,
         },
         "belline-50": {
           title: "Ruine",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame "la ruine" de l'oracle Belline comporte 2 éléments : une tour ainsi que des bâtiments en ruine en arrière plan, de la verdure à ses pieds. Placée sous le signe de Saturne, elle signifie que les affres du temps ont fait leur oeuvre mais que la verdure, le renouveau, est bien présent. La ruine symbolise la fin de toute chose, elle est inéluctable y compris pour les être humains. Elle nous enseigne que la stabilité du monde et des constructions ne sont qu'apparentes. Ainsi, les plus puissantes constructions n'échappent pas à l'évolution cyclique de l'univers qui, tour à tour, meurt puis renaît. Le consultant peut, si il est confronté à des cartes négatives, être amené à constater l'anéantissement de ses espoirs vis à vis d'un poste en vue, d'une affaire, d'un contrat. C'est également le signe qu'il est peut-être en fin de carrière ou proche de l'être et que des obstacles se dressent devant lui. Si il s'agit d'une entreprise et que les cartes qui l'accompagnent sont négatives il y a péril voire faillite. Cette lame peut se faire signe d'un amour ou d'une liaison sur le point de se terminer par érosion du temps, indifférence, détachement, dégradation des liens qui unissent les deux êtres. Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation</p>`,
         },
         "belline-51": {
           title: "Retard",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame du “retard” de l'oracle Belline comporte 2 éléments : une roue coincée au sein d'une montagne à deux versants. Placée sous le signe de Saturne, elle signifie la lenteur, la maturation le retard dans tous les domaines. Il y a blocage au regard de la situation dans laquelle se trouve le consultant. Ses plans sont contrariés par un imprévu, un contretemps, un empêchement de courte ou moyenne durée. Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</p>`,
         },
         "belline-52": {
           title: "Cloître",
           image:
             "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg",
-          text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`,
+          text: `<p>La lame du "cloître" de l''oracle Belline comporte 2 éléments : un mur fermé par une lourde grille noire mais également de la verdure à l'arrière plan et au pied de la grille. Placée sous le signe de Saturne, elle signifie le repli sur soi, la mélancolie, l'isolement et la quête spirituelle. Le cloître est symbole de lieu sacré pour quiconque recherche une retraite spirituelle, parfois mystique. C'est l'endroit idéal pour se remettre en question. Bien à l ‘abri, le consultant est protégé du monde extérieur et à l'abri du danger, à l'abri de la société. Il y a introspection, le consultant se penche sur sa vie pour faire le point, se recentrer sur les choses essentielles comme sur les plus futiles, les plus superficielles. C'est le moment d'avancer vers une nouvelle vie. Sur le plan spirituel, le consultant posséde un don pour la voyance, l'ésotérisme Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation</p>`,
         },
         "pique-7": {
           title: "Sept de Pique",
