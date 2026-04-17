@@ -1487,10 +1487,10 @@ complémentaires et affiner la situation.</p>`
                         document.querySelectorAll('.carte-container').forEach(container => {
                             container.addEventListener('click', function() {
                                 const cardId = this.getAttribute('data-card-id');
-                                if (cartesData[cardId]) {
-                                    modalTitle.textContent = cartesData[cardId].title;
-                                    modalImg.src = cartesData[cardId].image;
-                                    modalText.innerHTML = cartesData[cardId].text;
+                                if (window.cartesData[cardId]) {
+                                    modalTitle.textContent = window.cartesData[cardId].title;
+                                    modalImg.src = window.cartesData[cardId].image;
+                                    modalText.innerHTML = window.cartesData[cardId].text;
                                     modalOverlay.style.display = 'flex';
                                 }
                             });
