@@ -802,35 +802,35 @@ get_header(); ?>
                     <!-- Les Trèfles -->
                     <h3 style="color: #ffff00; text-decoration: underline; margin: 30px 0;">Les Trèfles</h3>
                     <div class="cartes-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; justify-items: center; margin-bottom: 40px;">
-                        <div class="carte-container" data-card-id="23">
+                        <div class="carte-container" data-card-id="trefle-7">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/26 - 7 de trefle.png" alt="7 de trefle" class="carte-img" />
                             <div class="carte-tooltip">Sept de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="24">
+                        <div class="carte-container" data-card-id="trefle-8">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/27 - 8 de trefle.png" alt="8 de trefle" class="carte-img" />
                             <div class="carte-tooltip">Huit de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="25">
+                        <div class="carte-container" data-card-id="trefle-9">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/28 - 9 de trefle.png" alt="9 de trefle" class="carte-img" />
                             <div class="carte-tooltip">Neuf de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="26">
+                        <div class="carte-container" data-card-id="trefle-10">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/29 - 10 de trefle.png" alt="10 de trefle" class="carte-img" />
                             <div class="carte-tooltip">Dix de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="27">
+                        <div class="carte-container" data-card-id="trefle-valet">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/30 - Valet de trefle.png" alt="Valet de trefle" class="carte-img" />
                             <div class="carte-tooltip">Valet de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="28">
+                        <div class="carte-container" data-card-id="trefle-dame">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/31 - Dame de trefle.png" alt="Dame de trefle" class="carte-img" />
                             <div class="carte-tooltip">Dame de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="29">
+                        <div class="carte-container" data-card-id="trefle-roi">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/32 - Roi de trefle.png" alt="Roi de trefle" class="carte-img" />
                             <div class="carte-tooltip">Roi de Trèfle</div>
                         </div>
-                        <div class="carte-container" data-card-id="30">
+                        <div class="carte-container" data-card-id="trefle-as">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/25 - As de trefle.png" alt="As de trefle" class="carte-img" />
                             <div class="carte-tooltip">As de Trèfle</div>
                         </div>
@@ -839,35 +839,35 @@ get_header(); ?>
                     <!-- Les Carreaux -->
                     <h3 style="color: #ffff00; text-decoration: underline; margin: 30px 0;">Les Carreaux</h3>
                     <div class="cartes-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; justify-items: center; margin-bottom: 40px;">
-                        <div class="carte-container" data-card-id="9">
+                        <div class="carte-container" data-card-id="carreau-7">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/10 - 7 de carreau.png" alt="7 de carreau" class="carte-img" />
                             <div class="carte-tooltip">Sept de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="10">
+                        <div class="carte-container" data-card-id="carreau-8">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/11 - 8 de carreau.png" alt="8 de carreau" class="carte-img" />
                             <div class="carte-tooltip">Huit de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="11">
+                        <div class="carte-container" data-card-id="carreau-9">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/12 - 9 de carreau.png" alt="9 de carreau" class="carte-img" />
                             <div class="carte-tooltip">Neuf de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="12">
+                        <div class="carte-container" data-card-id="carreau-10">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/13 - 10 de carreau.png" alt="10 de carreau" class="carte-img" />
                             <div class="carte-tooltip">Dix de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="13">
+                        <div class="carte-container" data-card-id="carreau-valet">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/14 - Valet de carreau.png" alt="Valet de carreau" class="carte-img" />
                             <div class="carte-tooltip">Valet de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="14">
+                        <div class="carte-container" data-card-id="carreau-dame">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/15 - Dame de carreau.png" alt="Dame de carreau" class="carte-img" />
                             <div class="carte-tooltip">Dame de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="15">
+                        <div class="carte-container" data-card-id="carreau-roi">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/16 - Roi de carreau.png" alt="Roi de carreau" class="carte-img" />
                             <div class="carte-tooltip">Roi de Carreau</div>
                         </div>
-                        <div class="carte-container" data-card-id="16">
+                        <div class="carte-container" data-card-id="carreau-as">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/9 - As de carreau.png" alt="As de carreau" class="carte-img" />
                             <div class="carte-tooltip">As de Carreau</div>
                         </div>
@@ -890,6 +890,364 @@ get_header(); ?>
 
                 <script>
                     window.cartesData = {
+                        "belline-0": {
+                            title: "Carte Bleue",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/0-carte-bleue.jpg",
+                            text: `<p><em>La lame bleue est sans nul doute la meilleure carte de l'oracle Belline. Elle ne porte pas de numéro et n'est sous l'influence d'aucune planète.</em></p><p><em>Elle symbolise la protection, l'appui, le changement et annihile toutes les mauvaises cartes l'entourant.</em></p><p><em>Quelques soit le domaine : amour argent travail santé et famille elle symbolise la pleine réussite Elle indique également qu'un nouveau ou renouveau va s'accomplir dans la vie du consultant sous le signe du bonheur et de la passion</em></p><p><em>Pour le cartomancien, il est inutile de poursuivre plus loin les investigations et contrer un jeu déjà excellent. En revanche si le jeu est mitigé voire négatif, un second tirage peut être nécessaire.</em></p>`
+                        },
+                        "belline-1": {
+                            title: "La Destinée",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/1-la-destinee.jpg",
+                            text: `<p><em>La "Lame de la Destinée" dans l'Oracle Belline est une carte très significative. C'est un jeu de tarot divinatoire qui a été développé par l'astrologue français Edmond BELLINE au 19ème siècle. Chaque carte de ce jeu a des significations symboliques et peut être interprétée de différentes manières selon le contexte de la question posée et la disposition des cartes.</em></p><p><em>La Lame de la Destinée représente généralement des thèmes de changement, de choix, et de prise de décisions importantes. Elle symbolise également le fait que les événements de la vie sont souvent influencés par des forces extérieures, mais aussi par nos propres actions et choix. La carte peut indiquer que le consultant est à un tournant de sa vie et qu'il est important de faire preuve de clairvoyance.</em></p><p><em>Elle peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécessaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`
+                        },
+                        "belline-2": {
+                            title: "L'Etoile de l'Homme",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/2-etoile-homme.jpg",
+                            text: `<p><em>"L'étoile de l'homme" comporte 2 éléments : un homme surmonté par une étoile à 6 branches symbole de l'étoile de David et que j'utilise personnellement pour représenter le consultant cependant elle possède également d'autres significations telles que l'époux, ou encore l'amant mais également l'ami proche et sincère.</em></p><p><em>La carte de l'étoile est souvent associée à des notions d'espoir, de réussite, de guidance et de protection. Elle peut symboliser une lumière dans l'obscurité, une direction à suivre ou une révélation à venir. Lorsque cette carte apparaît dans un tirage, elle est généralement perçue comme un signe positif, indiquant que les choses se mettent en place de façon bénéfique.</em></p><p><em>Dans une interprétation plus large, cette carte peut également suggérer une connexion spirituelle ou un voyage intérieur vers la découverte de soi et l'épanouissement personnel.</em></p><p><em>Elle peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécessaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`
+                        },
+                        "belline-3": {
+                            title: "L'Etoile de la Femme",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/3-etoile-femme.jpg",
+                            text: `<p><em>"L'étoile de la femme" comporte 2 éléments : une femme surmontée par une étoile à 6 branches symbole de l'étoile de David et que j'utilise personnellement pour représenter la consultante cependant elle possède également d'autres significations telles que l'épouse, ou encore l'amante mais également l'amie proche et sincère</em></p><p><em>Elle semble suggérer que, malgré les difficultés ou les défis, des conseils avisés seront toujours disponibles pour guider la personne. Cette lame peut symboliser des forces positives dans la vie, une influence protectrice, et la présence d'une personne sage ou d'un mentor qui offre des orientations et des avertissements utiles. Si tu souhaites approfondir ce sujet ou explorer davantage, n'hésite pas à préciser tes attentes !</em></p>`
+                        },
+                        "belline-4": {
+                            title: "La Nativité",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/4-nativite.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-5": {
+                            title: "Réussite",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/5-reussite.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-6": {
+                            title: "Élévation",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/6-elevation.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-7": {
+                            title: "Honneurs",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/7-honneurs.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-8": {
+                            title: "Pensée Amitié",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/8-pensee.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-9": {
+                            title: "Campagne Santé",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/9-campagne.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-10": {
+                            title: "Présents",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/10-presents.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-11": {
+                            title: "La trahison",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/11-trahison.jpg",
+                            text: `<p>La lame de la "trahison" de l'oracle Belline comporte 1 élément : un chat noir aux griffes
+(13) acérées, à la queue dressée agressivement et aux moustaches pointues. Placée sous le
+signe de la Lune, elle signifie la fourberie, la traîtrise, la convoitise, les complexes.</p>
+<p>C'est le signe que des personnes mal intentionnées chercheront à trahir et à blesser le
+consultant par des médisances, des calomnies. La vigilance est de mise surtout dans ses
+amitiés et ses relations amoureuses qu'elles chercheront à détruire.</p>
+<p>Dans le domaine professionnel, il pourrait bien y avoir une surprise désagréable. Si le
+consultant s'apprête à signer un contrat, accepter un proposition commerciale ou encore si le
+consultant est un indépendant, ce sera le signe d'une période difficile. On lui recommandera
+la prudence, la sagesse, la précaution.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-12": {
+                            title: "Le départ",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/12-depart.jpg",
+                            text: `<p>La lame du "départ" de l'oracle Belline comporte 2 éléments : la montagne et les oiseaux
+migrateurs. Placés sous le signe de la Lune, ces deux éléments symbolisent le voyage très
+lointain.</p>
+<p>Cette lame est propice au démarrage ou redémarrage d'une entreprise, d'une nouvelle
+orientation à prendre, d'un déplacement vers d'autres contrées.</p>
+<p>Dans l'oracle de Belline cette lame peut également signifier que le consultant se détache de
+son passé pour voler vers d'autres aventures et il est prêt à prendre du recul sans que des
+freins financiers Iui fassent obstacle.</p>
+<p>Sous le symbole des oiseaux migrateurs, il peut également prendre des vacances à l'étranger,
+se changer les idées en retour de sa réussite professionnelle.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-13": {
+                            title: "L'inconstance",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/13-inconstance.jpg",
+                            text: `<p>La lame de "l'inconstance" de l'oracle Belline comporte 2 éléments : une tête sortant des
+nuages et soufflant sur la tour au drapeau ainsi qu'une petite montagne dénuée de végétation,
+infertile. Placée sous le signe de la Lune, elle signifie la stérilité et la tour le refuge.</p>
+<p>L'oracle indique que le consultant doit s'abriter provisoirement et remettre ses projets à plus
+tard. Si le consultant est chef d 'entreprise il faudra remettre un projet car il est incertain. Si il
+est salarié, ce n'est pas le moment de demander une promotion, un avancement, une prime.</p>
+<p>En amour, il y a fragilité des sentiments, le consultant doit attendre que la situation
+s'éclaicisse avant de prendre une décision. Il y a risque d'infidélité.</p>
+<p>Côté argent. les difficultés sont présentes, gêne, contrariété, obstacle
+Côté famille, le soleil n'est pas au beau fixe et il y a un risque d'instabilité, de déloyauté.</p>
+<p>Si à cet instant l'oracle symbolise l'incertitude, le vent peut changer et devenir propice car
+rien n'est arrêté.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-14": {
+                            title: "La découverte",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/14-decouverte.jpg",
+                            text: `<p>La lame de la "découverte" de l'oracle Belline comporte 4 éléments : une lunette
+astronomique pointée sur une étoile à 6 branches, un parchemin sur lequel sont tracés une
+autre étoile à 6 branches et un cercle marqué d'une croix, 2 livres et la chouette. Placée sous
+le signe de la Lune, elle symbolise l'astronomie et par répercution l'astrologie, la lecture de
+l'avenir à travers les étoiles, le cartomancien, le guide spirituel.</p>
+<p>Dans l'oracle Belline, la lunette symbolise la connaissance basée sur l'observation, sur la
+réflexion tandis que la chouette incarne la réflexion, l'intuition. Les livres quant à eux
+représentent l'étude et la connaissance. La chouette veille sur la vigilance, l'intuition.</p>
+<p>Le consultant peut trouver une solution à son problème à l'aide d'un guide spirituel. Il se
+passionne pour les métiers intellectuels. L'intelligence et l'intuition seront ses atouts et lui
+permettront de réussir, de progreser dans les affaires.</p>
+<p>Côté coeur, il lui faudra suivre ses intuitions idem en ce qui concerne son emploi ou l'on lui
+promet de saisir une blelle occasion.</p>
+<p>Côté argent il est temps de faire des placements ou des investissements judicieux.</p>
+<p>Le consultant est doué pour la pratique des sciences occultes. L'oracle est extrémement
+favorable dans ce domaine auquel il correspond particulièrement.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+où à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-15": {
+                            title: "L'eau",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/15-eau.jpg",
+                            text: `<p>La lame de "l'eau" de l'oracle Belline comporte 2 éléments : un bateau orné d 'un drapeau au
+milieu de l'océan. Elle est placée signe de la Lune et symbolise le voyage par delà les mers,
+vers l'étranger.</p>
+<p>Sous le signe de la chance, les affaires marchent toutes seules. Si le consultant travaille dans
+l'import export, il y aura voyages d'affaires.</p>
+<p>Côte coeur il y a une belle rencontre en perspective qui pourrait déboucher sur une relation
+amicale dans un premier temps.</p>
+<p>Côté argent il y a protection, soutien, appui.</p>
+<p>Cependant, si la mer est calme pour le moment, elle risque de se transformer en tempête, il
+est donc recommandé de se prémunir des changements de cap, des mauvaises surprises. Le
+consultant devra se fier à son intuition pour accéder au succès. En faisant preuve de sagesse,
+il saura atteindre une stabilité financière qui le préservera sur le plan matériel.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-16": {
+                            title: "Les pénates",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/16-penates.jpg",
+                            text: `<p>La lame des "pénates" de l'oracle Belline comporte 3 éléments : une tour ronde crénelée, une
+porte ainsi qu'une fenêtre. Placée sous Le signe de la Lune, elle signifie le refuge, un abri sûr.</p>
+<p>La porte est difficilement accessible tout comme la tour en elle même. C'est signe de
+protection, de défense, de rempart, de fortification. Le consultant peut vivre tranquille et à
+l'abri des autres mais ne se renferme-til pas trop vers le monde qui l'entoure ?</p>
+<p>En effet, la famille et les amis comptent beaucoup pour le consultant alors il doit prendre le
+temps d'en profiter et passer d'agréables et bénéfiques moments en leurs compagnies de
+même, le consultant peut se trouver à l'aube de construire un foyer avec l'être aimé.</p>
+<p>Dans le domaine professionnel, il n'y aura pas une grande marge d'erreur, cela devrait le
+pousser à ne pas se lancer trop promptement dans des projets, à bien réfléchir avant d'agir. Si
+le consultant posséde des ressources financières, il sera bon d'investir dans l'immobilier.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-17": {
+                            title: "La maladie",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/17-maladie.jpg",
+                            text: `<p>La lame de la "maladie" de l'oracle Belline comporte 2 éléments : un oiseau bleu et une
+grenouille entre ses griffes. Placée sous Le signe de la Lune, elle signifie l'angoisse, l'appréhension, la frayeur, les inquiétudes.</p>
+<p>Obstacle, entrave dans les ambitions professionnelles, le consultant devra faire preuve
+de réflexion dans son travail, de mauvais choix pouvant vous conduire à des pertes. Il en
+sera de même de ses investissements il doit se montrer attentif aux placements qu'il fait car
+la période n'est pas propice aux bénéfices.</p>
+<p>Il ne doit pas négliger sa place au sein du foyer certainement trop pris par son travail.
+Attention à ne pas passer à côté du plus important au risque de le payer très cher.</p>
+<p>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres
+ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications
+complémentaires et affiner la situation.</p>`
+                        },
+                        "belline-18": {
+                            title: "Changement",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/18-changement.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-19": {
+                            title: "L'Argent",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-20": {
+                            title: "L'Intelligence",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/20-intelligence.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-21": {
+                            title: "Vol Perte",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/21-vol.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-22": {
+                            title: "Entreprises",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/22-entreprises.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-23": {
+                            title: "Trafic",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/23-trafic.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-24": {
+                            title: "Nouvelle",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/24-nouvelle.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-25": {
+                            title: "Plaisirs",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/25-plaisirs.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-26": {
+                            title: "La Paix",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/26-paix.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-27": {
+                            title: "Union",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/27-union.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-28": {
+                            title: "Famille",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/28-famille.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-29": {
+                            title: "Amour",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/29-amour.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-30": {
+                            title: "La Table",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/30-table.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-31": {
+                            title: "Passions",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/31-passions.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-32": {
+                            title: "Méchanceté",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/32-mechancete.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-33": {
+                            title: "Procès",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/33-proces.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-34": {
+                            title: "Despotisme",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/34-despotisme.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-35": {
+                            title: "Ennemis",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/35-ennemis.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-36": {
+                            title: "Pourparlers",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/36-pourparlers.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-37": {
+                            title: "Le Feu",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/37-feu.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-38": {
+                            title: "Accident",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/38-accident.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-39": {
+                            title: "Appui",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-40": {
+                            title: "Beauté",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-41": {
+                            title: "Héritage",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-42": {
+                            title: "Sagesse",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-43": {
+                            title: "La Renommée",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-44": {
+                            title: "Le Hasard",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-45": {
+                            title: "Bonheur",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-46": {
+                            title: "Infortune",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-47": {
+                            title: "Stérilité",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-48": {
+                            title: "Fatalité",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-49": {
+                            title: "La Grâce",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-50": {
+                            title: "Ruine",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-51": {
+                            title: "Retard",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
+                        "belline-52": {
+                            title: "Cloître",
+                            image: "<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg",
+                            text: `<p><em>Texte d'interprétation à venir pour cette carte...</em></p>`
+                        },
                         "pique-7": {
                             title: "Sept de Pique",
                             image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Pique/2 - 7 de pique.png",
@@ -1036,83 +1394,83 @@ get_header(); ?>
                                    <p><em>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécessaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.</em></p>`
                         },
 
-    "23": {
+    "trefle-7": {
         title: "Sept de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/26 - 7 de trefle.png",
         text: `Le 7 de trèfle peut indiquer que de nouvelles opportunités se présentent à vous ou que vous ferez preuve de chance dans une situation donnée.<br><br>Cette lame peut également suggérer la nécessité d'agir avec prudence. Il peut être un signal pour ne pas prendre de risques inutiles et d'examiner attentivement les situations avant de prendre des décisions. Il peut encourager une plus grande confiance en soi et pousser à faire confiance à ses instincts.<br><br>Il peut également symboliser le début de nouveaux projets ou entreprises qui pourraient apporter chance et succès.<br><br>Sur le plan sentimental le consultant est face à un dilemne dont il peine à trouver une solution rationnelle qui pourrai avoir des répercutions dramatiques sur sa vie<br><br>Il est possible qu'il soit amené à vouloir tromper sa partenaire et inversement Le consultant doit trouver rapidement une solution à ce conflit intérieur et ne pas rester dans l'expectative au risque de s'en mordre les doigts plus tard.<br><br>Il va falloir qu'il se montre réaliste et objectif. Une aide pourra lui être donnée par son entourage proche, ses amis, sa famille ou un consultant extérieur.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "24": {
+    "trefle-8": {
         title: "Huit de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/27 - 8 de trefle.png",
         text: `Le huit de trèfle symbolise l'avenir professionnel.<br><br>Sous peu de temps Le consultant apprendra une bonne nouvelle en vue, une promotion est en vue suite a un travail soutenu et prolifique. Il fait référence à l'importance du travail acharné et des efforts pour atteindre ses objectifs. Il incite à persévérer et à ne pas abandonner face aux obstacles. S'en suivra une période de réussite et d'accomplissement dans ses projets, surtout s'ils sont liés au travail ou aux finances.<br><br>Souvent liée à des opportunités sur le plan financier, des gains matériels ou des projets à venir qui pourraient s'avérer bénéfiques, elle peut aussi symboliser l'importance de la communication dans les affaires et les relations. Elle encourage à être clair et direct dans vos échanges.<br><br>Cependant près de lui une personne agit dans l'ombre et cherche à contrarier ses projets, ses objectifs. Si le consultant a des soupçons vis à vis d'une personne de son entourage professionnel, il lui est recommandé de prendre de la distance avec elle rapidement : Il peut y avoir conflit d'intérêts. Il peut évoquer un dynamisme, des changements rapides ou des décisions à prendre. Cela peut indiquer un moment d'accélération dans votre vie personnelle ou professionnelle.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "25": {
+    "trefle-9": {
         title: "Neuf de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/28 - 9 de trefle.png",
         text: `Le 9 de trèfle est souvent associé à des périodes de chance et de bonnes opportunités qui se présentent à vous. Cela peut indiquer que vous êtes sur le point de recevoir de bonnes nouvelles ou de voir une amélioration de votre situation.<br><br>Ce chiffre pourrait aussi symboliser une stabilité financière imminente, un gain inattendu ou la réalisation de projets financiers. Il peut aussi signifier que les efforts que vous avez fournis commencent à porter leurs fruits, et que vous pouvez récolter les bénéfices de votre travail.<br><br>Sur un plan plus personnel, le 9 de trèfle peut représenter une période d'équilibre émotionnel et de satisfaction dans la vie quotidienne.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "26": {
+    "trefle-10": {
         title: "Dix de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/29 - 10 de trefle.png",
         text: `Le dix de trèfle symbolise le changement de situation, l'évolution positive, elle indique l'équilibre et le bien-être au sein de votre maison.<br><br>L'harmonie règne au sein de votre couple et elle se fait écho d'une volonté de s'unir par le mariage, elle annonce les fiançailles et si vous êtes célibataire le dix de trèfle se fait présage d'une rencontre prochaine avec l'être qui saura faire battre votre coeur.<br><br>Le 10 de Trèfle est souvent perçu comme un symbole de réussite matérielle, de prospérité et d'abondance. Il peut également représenter des gains financiers ou des réalisations professionnelles. La carte évoque souvent la conclusion de projets ou d'efforts, et le sentiment de satisfaction qui en résulte.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "27": {
+    "trefle-valet": {
         title: "Valet de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/30 - Valet de trefle.png",
         text: `Le valet de trèfle symbolise le jeune homme aux cheveux bruns.<br>Selon que vous soyez une femme ou un homme son interprétation diffère :<br><br>Pour une femme il sera le jeune homme séduisant cherchant à vous charmer et avec qui il faudra jouer de prudence et ne pas aller trop vite dans la relation amoureuse qui est en train de naître au risque d'être déçue voire anéantie.<br><br>En effet le valet de trèfle pourrait avoir un caractère destructeur. Il y a danger et la consultante risque d'y laisser des plumes.<br><br>Pour un homme ce sera le rival. Plus jeune et plus séduisant qui pourrait convoiter la conjointe du consultant, il va falloir mettre les choses à plat avec lui et le rendre inoffensif.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "28": {
+    "trefle-dame": {
         title: "Dame de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/31 - Dame de trefle.png",
         text: `La dame de trèfle symbolise la femme brune.<br><br>Il faudra que le consultant se méfie de celle-ci car elle est de mauvaise augure plus particulièrement en ce qui concerne les sentiments : la jalousie, la convoitise, elle ne reculera devant rien pour nuire, faire du tort au consultant et lui porter atteinte par pur égoïsme et méchanceté gratuite.<br><br>Elle est aussi souvent associée à des significations spécifiques: Elle peut représenter une femme influente, souvent à caractère pratique, ambitieuse et qui peut être liée aux affaires ou aux finances. Elle aborde les situations de manière pragmatique et analytique.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "29": {
+    "trefle-roi": {
         title: "Roi de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/32 - Roi de trefle.png",
         text: `Le roi de trèfle symbolise l'homme d'un âge mûr.<br><br>De par son conseil et de par son expérience il apportera la protection au consultant. Il se fait également signe de satisfaction personnelle pour le consultant en apportant de bonnes nouvelles sur le plan professionnel avec par exemple, une promotion ou une nomination à de nouvelles fonctions, une promotion, une prime.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "30": {
+    "trefle-as": {
         title: "As de Trèfle",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Trefle/25 - As de trefle.png",
         text: `L'as de trèfle symbolise la réussite tant spirituelle que professionnelle.<br><br>Elle se fait signe de bien-être intérieur et de satisfaction. Pour le consultant il s'agit d'une période propice aux projets en gestation qu'il faudra mettre en oeuvre. Le succès est au rendez-vous.<br><br>Sentimentalement, une période propice aux joies de la vie de couple, le bonheur est à vos côtés il suffit de vous baisser. Spirituellement, il annonce un don inné pour la cartomancie, la voyance et se fait l'annonce d'une grande satisfaction spirituelle.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
 
-    "9": {
+    "carreau-7": {
         title: "Sept de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/10 - 7 de carreau.png",
         text: `Le sept de carreau symbolise le monde des affaires<br><br>Il indique les négociations menées à leur terme ou les compromis qu'il faudra faire pour mener à bien un projet en cours comme la vente d'un bien immobilier par exemple<br><br>Elle signifie également la remise en cause et des changements d'orientation pour le consultant qui devra faire le point en ce qui concerne sa vie affective ou professionnelle de façon préméditée ou non. Cette démarche sera couronnée de succès.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "10": {
+    "carreau-8": {
         title: "Huit de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/11 - 8 de carreau.png",
         text: `Le huit de carreau symbolise l'innattendu et la nouveauté, les prédictions sont essentiellement positives.<br><br>Le huit de carreau peut symboliser des changements importants dans la vie personnelle ou professionnelle. Cela peut indiquer un déplacement, un voyage ou un changement de carrière. Cette carte est aussi liée à la communication. Elle peut signifier que vous devez exprimer vos pensées ou vos émotions plus clairement, ou qu'une communication importante est sur le point d'avoir lieu.<br><br>Le huit de carreau est une carte qui évoque également l'énergie et le dynamisme. Elle peut suggérer que vous êtes sur le point d'atteindre vos objectifs grâce à votre détermination et votre travail acharné.<br><br>Dans certains contextes, cette carte peut aussi signaler des défis à surmonter, mais il est important de garder à l'esprit que ces défis peuvent être des opportunités déguisées.<br><br>Dans le domaine matériel, le huit de carreau peut indiquer une période de prospérité ou une augmentation financière grâce à des efforts personnels.<br><br>En résumé, le huit de carreau en cartomancie est une carte dynamique qui reflète des changements, des défis, et une énergie positive concentrée sur la communication et l'action.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "11": {
+    "carreau-9": {
         title: "Neuf de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/12 - 9 de carreau.png",
         text: `Le neuf de carreau symbolise l'inattendu et le contretemps.<br><br>Il signifie que des obstacles se mettront en travers du chemin du consultant pouvant retarder ses projets, ses attentes.<br><br>Le neuf de carreau est également un signal d'alarme qui renseigne le consultant sur la malignité des personnes qu'il cotoie. En effet que ce soit en amour ou en affaire on le considère, a tort ou a raison, comme un empécheur de tourner en rond et l'on s'acharne à faire échouer ses projets dans l'oeuf. Il va falloir faire preuve d'ouverture d'esprit et de strategie pour renverser la situation.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "12": {
+    "carreau-10": {
         title: "Dix de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/13 - 10 de carreau.png",
         text: `Le dix de carreau symbolise la réussite dans les projets et l'aboutissement des efforts.<br><br>Le consultant s'est dévoué sur le plan professionnel.<br>L'évolution sonne à sa porte : promotion ou prime exceptionnelle.<br>Le déménagement, la mutation peuvent être à l'ordre du jour et il lui faudra saisir ces opportunités dans un avenir proche.<br><br>Dans le cercle familial il y a bien-être et satisfaction.<br>Il est possible que le consultant apprenne une naissance chez un être cher à son coeur et ou qu'il projette de prendre des vacances bien méritées : un voyage pour rencontrer un ami proche y compris par delà les rivières ou les mers.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "13": {
+    "carreau-valet": {
         title: "Valet de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/14 - Valet de carreau.png",
         text: `Le valet de carreau symbolise le messager.<br><br>Le jeune homme se fait porteur d'une nouvelle d'importance capitale.<br>Peut-être des informations pour l'avenir professionnel ou personnel du consultant via le facteur ou un mail mais également par une personne de son entourage proche ou d'un consultant extérieur comme un cartomancien, un voyant.<br><br>Le valet de carreau est souvent associé à des attributs tels que l'énergie, la créativité, et un certain impétueux. Il peut représenter une personne jeune, dynamique et pleine de projets, souvent avec une forte capacité d'adaptation. Dans un tirage, le valet de carreau peut également symboliser des nouvelles, des messages ou des invitations, en particulier en lien avec le domaine professionnel ou matériel.<br><br>Sur le plan affectif le valet de carreau signifie un renouveau et il indique qu'une relation va naître ou encore l'amélioration d'une relation déjà existante.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "14": {
+    "carreau-dame": {
         title: "Dame de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/15 - Dame de carreau.png",
         text: `La dame de carreau symbolise la femme influente et aisée.<br><br>Comme le roi de carreau elle se fait généralement signe de protection face aux médisances à la jalousie que peut rencontrer le consultant.<br><br>La reine de carreau signifie la femme d'affaire, elle éclaire d'un jour nouveau l'éxistence du consultant son existance professionnelle et il est probable qu'elle l'aide à voir les choses sous un autre angle que celui sous lequel il les avaient jusqu'alors envisagées.<br><br>Le consultant est protégé mais doit cependant se montrer prudent face aux personnes qui gravitent dans son cercle professionnel, familial ou amical.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "15": {
+    "carreau-roi": {
         title: "Roi de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/16 - Roi de carreau.png",
         text: `Le roi de carreau symbolise l'homme influent et aisé.<br><br>Signe de protection face aux médisances et à la jalousie que peut rencontrer le consultant, il doit se montrer prudent face aux personnes qui gravitent dans son cercle professionnel, familial ou amical.<br><br>Le roi de carreau signifie l'homme d'affaire, il éclaire d'un jour nouveau l'éxistence professionnelle du consultant et il est probable qu'il l'aide à voir les choses sous un autre angle que celui sous lequel il les avaient jusqu'alors envisagées.<br><br>Rien désormais ne semble détourner le consultant du succès dans ses entreprises. Le roi de carreau est gage de réussite. Le consultant doit avoir confiance en ses projets.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
     },
-    "16": {
+    "carreau-as": {
         title: "As de Carreau",
         image: "<?php echo get_template_directory_uri(); ?>/assets/images/32cartes/Carreau/9 - As de carreau.png",
         text: `L'as de carreau symbolise la réussite dans l'entreprise.<br><br>Dans le monde du travail l'as de carreau signifie une rentrée d'argent inattendue, une promotion, une prime, pour un travail dans lequel le consultant s'est investi pleinement. Il bénéficie maintenant des retombées fructueuses de son investissement.<br><br>Ce peut également être l'aide d'un ami qui croit en les projets du consultant mais aussi le remboursement d'une dette sur laquelle il ne comptait plus, un gros héritage ou un gain au jeu. Quoi qu'il en soit l'argent qu'annonce l'as de carreau coulera en abondance.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`
@@ -1173,87 +1531,246 @@ get_header(); ?>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames qui ne sont pas sous influence planétaire</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/0-carte-bleue.jpg" alt="Carte Bleue" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/1-la-destinee.jpg" alt="La Destinée" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/2-etoile-homme.jpg" alt="L'Etoile de l'Homme" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/3-etoile-femme.jpg" alt="L'Etoile de la Femme" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-0" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Carte Bleue</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/0-carte-bleue.jpg" alt="Carte Bleue" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-1" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Destinée</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/1-la-destinee.jpg" alt="La Destinée" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-2" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Etoile de l'Homme</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/2-etoile-homme.jpg" alt="L'Etoile de l'Homme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-3" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Etoile de la Femme</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/3-etoile-femme.jpg" alt="L'Etoile de la Femme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence du Soleil</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/4-nativite.jpg" alt="La Nativité" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/5-reussite.jpg" alt="Réussite" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/6-elevation.jpg" alt="Élévation" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/7-honneurs.jpg" alt="Honneurs" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/8-pensee.jpg" alt="Pensée Amitié" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/9-campagne.jpg" alt="Campagne Santé" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/10-presents.jpg" alt="Présents" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-4" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Nativité</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/4-nativite.jpg" alt="La Nativité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-5" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Réussite</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/5-reussite.jpg" alt="Réussite" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-6" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Élévation</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/6-elevation.jpg" alt="Élévation" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-7" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Honneurs</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/7-honneurs.jpg" alt="Honneurs" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-8" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Pensée Amitié</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/8-pensee.jpg" alt="Pensée Amitié" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-9" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Campagne Santé</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/9-campagne.jpg" alt="Campagne Santé" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-10" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Présents</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/10-presents.jpg" alt="Présents" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de la Lune</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/11-trahison.jpg" alt="Trahison" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/12-depart.jpg" alt="Départ" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/13-inconstance.jpg" alt="Inconstance" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/14-decouverte.jpg" alt="Découverte" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/15-eau.jpg" alt="L'Eau" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/16-penates.jpg" alt="Les Pénates" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/17-maladie.jpg" alt="Maladie" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-11" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Trahison</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/11-trahison.jpg" alt="Trahison" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-12" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Départ</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/12-depart.jpg" alt="Départ" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-13" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Inconstance</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/13-inconstance.jpg" alt="Inconstance" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-14" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Découverte</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/14-decouverte.jpg" alt="Découverte" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-15" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Eau</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/15-eau.jpg" alt="L'Eau" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-16" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Les Pénates</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/16-penates.jpg" alt="Les Pénates" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-17" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Maladie</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/17-maladie.jpg" alt="Maladie" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mercure</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/18-changement.jpg" alt="Changement" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg" alt="L'Argent" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/20-intelligence.jpg" alt="L'Intelligence" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/21-vol.jpg" alt="Vol Perte" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/22-entreprises.jpg" alt="Entreprises" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/23-trafic.jpg" alt="Trafic" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/24-nouvelle.jpg" alt="Nouvelle" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-18" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Changement</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/18-changement.jpg" alt="Changement" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-19" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Argent</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg" alt="L'Argent" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-20" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">L'Intelligence</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/20-intelligence.jpg" alt="L'Intelligence" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-21" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Vol Perte</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/21-vol.jpg" alt="Vol Perte" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-22" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Entreprises</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/22-entreprises.jpg" alt="Entreprises" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-23" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Trafic</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/23-trafic.jpg" alt="Trafic" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-24" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Nouvelle</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/24-nouvelle.jpg" alt="Nouvelle" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Vénus</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/25-plaisirs.jpg" alt="Plaisirs" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/26-paix.jpg" alt="La Paix" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/27-union.jpg" alt="Union" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/28-famille.jpg" alt="Famille" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/29-amour.jpg" alt="Amour" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/30-table.jpg" alt="La Table" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/31-passions.jpg" alt="Passions" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-25" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Plaisirs</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/25-plaisirs.jpg" alt="Plaisirs" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-26" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Paix</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/26-paix.jpg" alt="La Paix" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-27" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Union</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/27-union.jpg" alt="Union" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-28" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Famille</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/28-famille.jpg" alt="Famille" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-29" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Amour</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/29-amour.jpg" alt="Amour" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-30" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Table</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/30-table.jpg" alt="La Table" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-31" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Passions</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/31-passions.jpg" alt="Passions" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Mars</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/32-mechancete.jpg" alt="Méchanceté" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/33-proces.jpg" alt="Procès" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/34-despotisme.jpg" alt="Despotisme" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/35-ennemis.jpg" alt="Ennemis" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/36-pourparlers.jpg" alt="Pourparlers" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/37-feu.jpg" alt="Le Feu" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/38-accident.jpg" alt="Accident" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-32" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Méchanceté</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/32-mechancete.jpg" alt="Méchanceté" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-33" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Procès</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/33-proces.jpg" alt="Procès" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-34" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Despotisme</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/34-despotisme.jpg" alt="Despotisme" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-35" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Ennemis</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/35-ennemis.jpg" alt="Ennemis" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-36" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Pourparlers</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/36-pourparlers.jpg" alt="Pourparlers" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-37" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Le Feu</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/37-feu.jpg" alt="Le Feu" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-38" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Accident</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/38-accident.jpg" alt="Accident" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Jupiter</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg" alt="Appui" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg" alt="Beauté" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg" alt="Héritage" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg" alt="Sagesse" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg" alt="La Renommée" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg" alt="Le Hasard" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg" alt="Bonheur" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-39" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Appui</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/39-appui.jpg" alt="Appui" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-40" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Beauté</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/40-beaute.jpg" alt="Beauté" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-41" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Héritage</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/41-heritage.jpg" alt="Héritage" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-42" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Sagesse</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/42-sagesse.jpg" alt="Sagesse" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-43" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Renommée</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/43-renommee.jpg" alt="La Renommée" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-44" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Le Hasard</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/44-hazard.jpg" alt="Le Hasard" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-45" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Bonheur</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/45-bonheur.jpg" alt="Bonheur" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
             <h3 style="color: #ffcc00; text-align: center; font-style: italic; text-decoration: underline;">Les lames sous influence de Saturne</h3>
             <div class="cards-grid" style="display: flex; justify-content: center; gap: 10px; margin-bottom: 40px; flex-wrap: wrap;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg" alt="Infortune" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg" alt="Stérilité" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg" alt="Fatalité" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg" alt="La Grâce" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg" alt="Ruine" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg" alt="Retard" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg" alt="Cloître" style="width: 80px; height: 140px; cursor: pointer; border: 2px solid #ccc; border-radius: 5px;">
+                <div class="carte-container" data-card-id="belline-46" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Infortune</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/46-infortune.jpg" alt="Infortune" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-47" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Stérilité</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/47-sterilite.jpg" alt="Stérilité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-48" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Fatalité</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/48-fatalite.jpg" alt="Fatalité" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-49" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">La Grâce</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/49-grace.jpg" alt="La Grâce" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-50" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Ruine</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/50-ruine.jpg" alt="Ruine" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-51" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Retard</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/51-retard.jpg" alt="Retard" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
+                <div class="carte-container" data-card-id="belline-52" style="width: 80px; margin-bottom: 20px;">
+                    <div class="carte-tooltip">Cloître</div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/52-cloitre.jpg" alt="Cloître" class="carte-img" style="width: 80px; height: 140px; border: 2px solid #ccc; border-radius: 5px;" />
+                </div>
             </div>
 
         </div>
