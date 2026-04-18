@@ -61,11 +61,9 @@
 
     <header id="masthead" class="site-header">
         <div class="site-branding" style="text-align: center; padding: 20px 0;">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.png" alt="<?php bloginfo( 'name' ); ?>" style="max-width: 100%; height: auto;">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" style="display: inline-block;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_a_faire.png" alt="<?php bloginfo( 'name' ); ?> - Entre ésotérisme et magie" style="max-width: 100%; height: auto;">
             </a>
-            <div style="font-style:italic;font-size:50px;font-family:Aesthetic;color:rgb(255, 255, 0);"><b>Voyance Belline</b></div>
-            <div style="font-style: italic; font-family: Aesthetic; font-size: x-large; color: rgb(255, 255, 0);">Entre ésotérisme et magie</div>
             <?php
             $availability_status = get_option('belline_availability_status', 'disponible');
             $status_color = ($availability_status === 'disponible') ? '#00b050' : '#ff0000';
