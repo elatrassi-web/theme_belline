@@ -3623,7 +3623,136 @@ get_header(); ?>
         },
         "pyramide": {
           title: "Tirage en pyramide",
-          body: "<p><em>Contenu à venir...</em></p>"
+          body: `
+
+<h3 style="color: yellow; text-align: center; text-decoration: underline; margin-bottom: 20px;">Le tirage en "Pyramide"</h3>
+
+<p>Le tirage de la pyramide dans l'Oracle Belline est une méthode de divination puissante et riche en significations. Ce tirage permet d'explorer en profondeur une situation ou une question spécifique en offrant une vue d'ensemble structurée de divers aspects de votre vie.</p>
+
+<p><strong style="color: yellow;">Objectif du tirage de la pyramide</strong><br>
+Ce tirage se compose généralement de six cartes disposées en forme de pyramide, chacune représentant un aspect différent de la situation analysée. Grâce à cette disposition, le tirage de la pyramide permet de visualiser les influences passées, présentes et futures, tout en mettant en lumière les obstacles et les conseils à considérer.</p>
+
+<p><strong style="color: yellow;">Structure du tirage</strong><br>
+La configuration de la pyramide facilite une interprétation détaillée et nuancée. Les cartes en bas de la pyramide représentent les bases et les influences passées, tandis que celles en haut fournissent des indications sur les résultats futurs et les conseils à suivre. Cette méthode est particulièrement appréciée pour sa capacité à offrir une perspective holistique sur des questions complexes.</p>
+
+<p>Le tirage de la pyramide est un outil précieux pour obtenir des éclaircissements sur le cheminement personnel, les relations ou les projets. En interprétant chaque carte en tenant compte de sa position et de son interaction avec les autres, vous pouvez découvrir des insights profonds qui vous guideront dans vos choix futurs.</p>
+
+<p>En somme, le tirage de la pyramide dans l'Oracle Belline est une méthode efficace pour plonger dans les subtilités de votre vie et obtenir des réponses éclairantes. Que vous soyez novice ou expérimenté en cartomancie, ce tirage offre une richesse d'informations qui peut vous aider à naviguer dans les défis et à saisir les opportunités qui se présentent à vous.</p>
+
+<div style="display: flex; justify-content: center; margin: 40px 0;">
+  <div style="position: relative; width: 440px; height: 530px;">
+    <!-- Niveau 3 : Sommet (Carte 6) -->
+    <div style="position: absolute; top: 20px; left: 170px; width: 100px;">
+      <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">6</div>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/7.PNG" alt="Carte 6" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+
+    <!-- Niveau 2 : Milieu (Cartes 4 et 5) -->
+    <div style="position: absolute; top: 190px; left: 95px; width: 100px;">
+      <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">4</div>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p4.jpg" alt="Carte 4" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+    <div style="position: absolute; top: 190px; left: 245px; width: 100px;">
+      <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">5</div>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p5.jpg" alt="Carte 5" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+
+    <!-- Niveau 1 : Base (Cartes 1, 2 et 3) -->
+    <div style="position: absolute; top: 360px; left: 20px; width: 100px;">
+      <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">1</div>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p1.jpg" alt="Carte 1" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+    <div style="position: absolute; top: 360px; left: 170px; width: 100px;">
+      <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">2</div>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p2.jpg" alt="Carte 2" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+    <div style="position: absolute; top: 360px; left: 320px; width: 100px;">
+      <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">3</div>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p3.jpg" alt="Carte 3" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    </div>
+  </div>
+</div>
+
+<h4 style="color: yellow; text-align: center; text-decoration: underline; margin-top: 30px; margin-bottom: 20px;">Interprétation des lames</h4>
+
+<h5 style="color: yellow; font-style: italic;">Interprétation des cartes à la base de la pyramide</h5>
+<p>L'interprétation de la base de la pyramide dans l'Oracle Belline en tenant compte des cartes du Changement, de la Pyramide et de l'Eau peut offrir des perspectives riches et nuancées sur votre situation actuelle. Chacune de ces cartes, avec ses significations spécifiques, contribue à une compréhension plus profonde des influences qui façonnent votre parcours.</p>
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p1.jpg" alt="Carte du Changement" style="max-width: 100%; border-radius: 10px;">
+</div>
+<h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Carte du Changement</h4>
+<p>La carte du Changement symbolise des transitions importantes, des mutations et l'arrivée de nouvelles circonstances. Sa présence à la base de la pyramide indique que des changements significatifs se sont déjà produits dans votre vie ou sont en cours. Cela peut indiquer que vous êtes dans une phase où vous devez vous adapter et évoluer.</p>
+<p>Cette carte suggère également des opportunités de recommencement ou de renouveau. Si vous avez traversé des périodes difficiles, le Changement peut être un signe que des temps meilleurs sont à l'horizon, à condition de rester ouvert et réceptif.</p>
+
+<div style="text-align: center; margin-top: 30px;">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p2.jpg" alt="Carte de la Pyramide" style="max-width: 100%; border-radius: 10px;">
+</div>
+<h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Carte de la Pyramide</h4>
+<p>La carte de la Pyramide évoque la construction, la solidité et la fondation. En étant présente à la base, elle souligne l'importance d'établir des bases solides pour faire face aux changements. Cela peut signifier qu'il est essentiel de travailler sur vos fondations personnelles, que ce soit sur le plan émotionnel, relationnel ou professionnel.</p>
+<p>La Pyramide peut également suggérer que les changements que vous vivez sont en lien avec des objectifs à long terme. Il est important de garder en tête une vision claire de ce que vous souhaitez construire dans votre vie, même au milieu des transitions.</p>
+
+<div style="text-align: center; margin-top: 30px;">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p3.jpg" alt="Carte de l'Eau" style="max-width: 100%; border-radius: 10px;">
+</div>
+<h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Carte de l'Eau</h4>
+<p>La carte de l'Eau représente les émotions, l'intuition et les flux. Sa présence à la base de la pyramide indique que les changements que vous vivez sont fortement influencés par votre monde émotionnel. Cela peut suggérer que vous devez prêter attention à vos sentiments et à votre intuition pour naviguer à travers les défis qui se présentent.</p>
+<p>L'Eau évoque également la capacité d'adaptation et de flexibilité. Cela signifie que pour gérer les changements, vous devrez peut-être apprendre à être plus fluide, à vous laisser porter par les courants et à accepter les transformations sans résistance.</p>
+
+<p><strong style="color: yellow;">Synthèse de l'interprétation (Base)</strong><br>
+Dans l'ensemble, la combinaison de la carte du Changement, de la carte de la Pyramide et de la carte de l'Eau à la base de la pyramide dans l'Oracle Belline met en lumière une période de profonde transformation personnelle. Ce tirage suggère que :</p>
+<ul>
+  <li>Vous êtes dans une phase de transition qui nécessite d'être attentif à vos émotions et à votre intuition (Eau).</li>
+  <li>Il est essentiel d'établir des fondations solides et de garder une vision claire de vos objectifs à long terme (Pyramide).</li>
+  <li>En étant ouvert aux changements et en vous adaptant aux nouvelles circonstances, vous pourrez construire un avenir épanouissant et équilibré.</li>
+</ul>
+<p>Cette configuration vous encourage à embrasser le changement, à utiliser vos émotions comme guides et à rester concentré sur la création de bases solides pour votre avenir.</p>
+
+<h5 style="color: yellow; font-style: italic; margin-top: 30px;">Interprétation des cartes au niveau intermédiaire de la pyramide</h5>
+<p>Dans le tirage de la pyramide de l'Oracle Belline, les cartes du Départ et de l'Appui ont des significations distinctes qui, ensemble, offrent des insights précieux sur votre situation actuelle et les chemins à suivre.</p>
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p4.jpg" alt="Carte du Départ" style="max-width: 100%; border-radius: 10px;">
+</div>
+<h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Carte du Départ</h4>
+<p>La carte du Départ symbolise souvent un nouveau commencement ou une nouvelle phase dans votre vie. Cela peut se traduire par un changement de direction, une initiative personnelle ou le lancement d'un projet. Elle indique que vous êtes prêt à explorer de nouvelles opportunités.</p>
+<p>Cette carte peut également suggérer qu'il est temps de sortir de votre zone de confort et de prendre des risques calculés. Le Départ invite à l'aventure et à l'ouverture à l'inconnu, ce qui peut être à la fois excitant et intimidant.</p>
+<p>Le Départ évoque une énergie dynamique et positive, vous incitant à agir et à avancer. C'est un moment propice pour poser des actions concrètes vers vos objectifs.</p>
+
+<div style="text-align: center; margin-top: 30px;">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p5.jpg" alt="Carte de l'Appui" style="max-width: 100%; border-radius: 10px;">
+</div>
+<h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Carte de l'Appui</h4>
+<p>La carte de l'Appui représente le soutien, l'aide et les ressources qui sont à votre disposition. Cela peut faire référence à des personnes dans votre vie, comme des amis, des mentors ou des membres de la famille qui vous épaulent dans vos démarches.</p>
+<p>Cette carte indique également que vous ne devez pas hésiter à demander de l'aide lorsque cela est nécessaire. Elle suggère que vous avez une fondation solide sur laquelle vous pouvez compter pour surmonter les défis qui peuvent survenir lors de votre nouveau départ.</p>
+<p>L'Appui peut aussi évoquer la confiance en vous-même et en vos capacités. Elle indique que vous avez les ressources internes et externes nécessaires pour réussir dans vos nouvelles entreprises.</p>
+
+<p><strong style="color: yellow;">Synthèse de l'interprétation (Niveau intermédiaire)</strong><br>
+Lorsque la carte du Départ est associée à la carte de l'Appui dans un tirage de la pyramide, cela renforce l'idée que vous êtes à un tournant important de votre vie, où des opportunités de renouveau se présentent à vous. Voici quelques points clés à retenir :</p>
+<ul>
+  <li>Le Départ vous encourage à saisir les nouvelles opportunités qui se présentent, tandis que l'Appui vous rappelle que vous n'êtes pas seul dans votre démarche. Vous avez des ressources et un soutien sur lesquels vous pouvez compter.</li>
+  <li>Cette combinaison indique que c'est le bon moment pour agir, en sachant que vous avez le soutien nécessaire pour faire face aux défis éventuels. Cela renforce votre capacité à avancer avec confiance dans cette nouvelle phase.</li>
+  <li>Ensemble, ces cartes soulignent l'importance de trouver un équilibre entre prendre des initiatives personnelles et s'appuyer sur les ressources et les relations qui vous entourent.</li>
+</ul>
+<p>En résumé, le Départ et l'Appui dans le tirage de la pyramide de l'Oracle Belline mettent en lumière un moment de transformation, où l'action et le soutien s'entrelacent pour vous permettre d'avancer vers de nouveaux horizons avec assurance.</p>
+
+<h5 style="color: yellow; font-style: italic; margin-top: 30px;">Interprétation de l'Étoile de l'Homme au sommet de la pyramide</h5>
+<p>Dans le tirage de la pyramide de l'Oracle Belline, la carte de l'Étoile de l'Homme, lorsqu'elle apparaît au sommet, revêt une signification particulièrement positive et inspirante. Voici une interprétation détaillée de cette carte dans cette position :</p>
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/7.PNG" alt="L'Étoile de l'Homme" style="max-width: 100%; border-radius: 10px;">
+</div>
+<h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">L'Étoile de l'Homme</h4>
+<p><strong style="color: yellow;">Illumination et guidance</strong> : L'Étoile de l'Homme symbolise l'illumination, la clarté et la guidance. En étant placée au sommet de la pyramide, elle indique que vous êtes sur le point d'atteindre une compréhension ou une révélation importante. Cette carte suggère que vous êtes dirigé vers un chemin éclairé, où vos aspirations et vos objectifs deviennent clairs.</p>
+<p><strong style="color: yellow;">Réalisation des objectifs</strong> : Cette carte est souvent associée à l'accomplissement et à la réalisation de vos désirs. Au sommet de la pyramide, elle indique que vous êtes en bonne voie pour atteindre vos objectifs. Les efforts que vous avez fournis dans les niveaux inférieurs de la pyramide (influences passées, défis actuels) portent leurs fruits.</p>
+<p><strong style="color: yellow;">Confiance en soi</strong> : L'Étoile de l'Homme évoque également une forte confiance en soi et en ses capacités. Cela suggère que vous commencez à croire en votre potentiel et à vous sentir capable de réaliser vos ambitions. Cette confiance est essentielle pour avancer vers vos objectifs avec détermination.</p>
+<p><strong style="color: yellow;">Connexion spirituelle</strong> : Cette carte peut également symboliser une connexion plus profonde avec votre moi intérieur ou votre spiritualité. Elle invite à écouter votre intuition et à suivre votre chemin personnel, ce qui peut conduire à des insights précieux et à une croissance personnelle.</p>
+<p><strong style="color: yellow;">Optimisme et espoir</strong> : Enfin, l'Étoile de l'Homme est un symbole d'espoir et d'optimisme. Elle vous encourage à garder une attitude positive face à l'avenir, même si des obstacles se présentent sur votre chemin. Cette carte vous rappelle que vous avez la capacité d'influencer votre destin et d'atteindre vos rêves.</p>
+
+<p><strong style="color: yellow;">Conclusion</strong><br>
+Dans le contexte du tirage de la pyramide de l'Oracle Belline, l'Étoile de l'Homme au sommet représente une culmination de vos efforts, une illumination personnelle et la promesse d'un avenir radieux. Elle souligne l'importance de croire en soi et de rester ouvert aux possibilités qui s'offrent à vous. Cette carte vous encourage à continuer sur votre chemin, en vous appuyant sur votre intuition et votre confiance, tout en gardant une vision positive de l'avenir. Vous êtes sur le point de réaliser vos aspirations et d'atteindre un nouveau niveau de réalisation personnelle.</p>
+
+`
         },
         "ligne": {
           title: "Tirage en ligne",
@@ -3748,7 +3877,7 @@ get_header(); ?>
         "tarot-17": {
           title: "L'Étoile",
           image: "<?php echo get_template_directory_uri(); ?>/assets/images/tarots/17.jpg",
-          text: `: k<br><br>ce kk<br><br>Cette lame du Tarot de Marseille comporte 3 éléments : une femme dénudée tenant dans ses mains 2 vases qu'elle déverse dans une rivière ainsi que des étoiles au dessus d'elle. Cette carte symbolise la créativité, l'amour, l'espoir mais aussi la paresse.<br><br>Le consultant est quelqu'un d'épanoui, d'agréable à vivre, il est sensible et pourvu d'un sens inné de la communication.<br><br>Professionnellement, il est ambitieux et créatif. Il a la réussite pour lui, ses projets se réalisent sans gros tracas même si parfois il se laisse entraîner dans des rêveries irréalisables et peut faire preuve de paresse, d'oisiveté de molesse.<br><br>Sentimentalement. il ÿ a union durable dans le temps, l'adage "être deux mais ne faire qu'un" s'applique tout particulièrement à cette lame. Il ÿ a relation tendre et sincère, bonheur épanouissant voire une naissance possible.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`,
+          text: `Cette lame du Tarot de Marseille comporte 3 éléments : une femme dénudée tenant dans ses mains 2 vases qu'elle déverse dans une rivière ainsi que des étoiles au dessus d'elle. Cette carte symbolise la créativité, l'amour, l'espoir mais aussi la paresse.<br><br>Le consultant est quelqu'un d'épanoui, d'agréable à vivre, il est sensible et pourvu d'un sens inné de la communication.<br><br>Professionnellement, il est ambitieux et créatif. Il a la réussite pour lui, ses projets se réalisent sans gros tracas même si parfois il se laisse entraîner dans des rêveries irréalisables et peut faire preuve de paresse, d'oisiveté de molesse.<br><br>Sentimentalement. il ÿ a union durable dans le temps, l'adage "être deux mais ne faire qu'un" s'applique tout particulièrement à cette lame. Il ÿ a relation tendre et sincère, bonheur épanouissant voire une naissance possible.<br><br>Cette carte peut également indiquer plusieurs choses et placée à côté de cartes plus sombres ou à l'inverse plus positives il sera nécéssaire de la recouvrir pour obtenir des explications complémentaires et affiner la situation.`,
         },
         "tarot-18": {
           title: "La Lune",
