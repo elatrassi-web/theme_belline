@@ -3530,34 +3530,34 @@ get_header(); ?>
           <strong style="color: yellow;">Carte 5</strong> (Conseil) : Tirez la cinquième carte et placez-la à droite de la première. Elle fournit des conseils ou des recommandations pour naviguer dans la situation.</p>
 
           <div style="display: flex; justify-content: center; margin: 40px 0;">
-            <div style="position: relative; width: 400px; height: 500px;">
+            <div style="position: relative; width: 440px; height: 530px;">
               <!-- Carte 3 (Haut) -->
-              <div style="position: absolute; top: 0; left: 150px; width: 100px;">
-                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">3</div>
+              <div style="position: absolute; top: 20px; left: 170px; width: 100px;">
+                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">3</div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t3.jpg" alt="Carte 3" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
               </div>
 
               <!-- Carte 2 (Gauche) -->
-              <div style="position: absolute; top: 160px; left: 0; width: 100px;">
-                <div style="position: absolute; top: 50%; left: -30px; transform: translateY(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">2</div>
+              <div style="position: absolute; top: 190px; left: 20px; width: 100px;">
+                <div style="position: absolute; top: 50%; left: -35px; transform: translateY(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">2</div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t2.jpg" alt="Carte 2" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
               </div>
 
               <!-- Carte 1 (Centre) -->
-              <div style="position: absolute; top: 160px; left: 150px; width: 100px;">
-                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">1</div>
+              <div style="position: absolute; top: 190px; left: 170px; width: 100px;">
+                <div style="position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">1</div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t1.jpg" alt="Carte 1" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
               </div>
 
               <!-- Carte 5 (Droite) -->
-              <div style="position: absolute; top: 160px; right: 0; width: 100px;">
-                <div style="position: absolute; top: 50%; right: -30px; transform: translateY(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">5</div>
+              <div style="position: absolute; top: 190px; left: 320px; width: 100px;">
+                <div style="position: absolute; top: 50%; right: -35px; transform: translateY(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">5</div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t5.jpg" alt="Carte 5" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
               </div>
 
               <!-- Carte 4 (Bas) -->
-              <div style="position: absolute; bottom: 0; left: 150px; width: 100px;">
-                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">4</div>
+              <div style="position: absolute; top: 360px; left: 170px; width: 100px;">
+                <div style="position: absolute; top: 8px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">4</div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t4.jpg" alt="Carte 4" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
               </div>
             </div>
