@@ -66,6 +66,18 @@
             </a>
             <div style="font-style:italic;font-size:50px;font-family:Aesthetic;color:rgb(255, 255, 0);"><b>Voyance Belline</b></div>
             <div style="font-style: italic; font-family: Aesthetic; font-size: x-large; color: rgb(255, 255, 0);">Entre ésotérisme et magie</div>
+            <?php
+            $availability_status = get_option('belline_availability_status', 'disponible');
+            $status_color = ($availability_status === 'disponible') ? '#00b050' : '#ff0000';
+            $status_text = ($availability_status === 'disponible') ? 'DISPONIBLE' : 'NON DISPONIBLE';
+            ?>
+            <div style="margin-top: 20px;">
+                <div style="display: inline-block; border: 2px solid #000; border-radius: 5px; padding: 5px 15px; font-family: sans-serif; font-weight: bold; font-size: 14px; background-color: rgba(255, 255, 255, 0.2); box-shadow: inset 0 0 5px rgba(0,0,0,0.5);">
+                    <span style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: <?php echo esc_attr($status_color); ?>; margin-right: 8px; vertical-align: middle; box-shadow: inset -2px -2px 4px rgba(0,0,0,0.4);"></span>
+                    <span style="color: #000; vertical-align: middle;"><?php echo esc_html($status_text); ?></span>
+                </div>
+            </div>
+
         </div><!-- .site-branding -->
 
         <nav id="site-navigation" class="main-navigation">

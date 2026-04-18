@@ -41,3 +41,46 @@ function belline_scripts() {
     wp_enqueue_script( 'oe-min', get_template_directory_uri() . '/assets/js/oe.min.js', array('jquery'), '1.57.9', true );
 }
 add_action( 'wp_enqueue_scripts', 'belline_scripts' );
+
+
+/**
+ * Custom Settings for Availability Status
+ */
+function belline_register_settings() {
+    add_option( 'belline_availability_status', 'disponible' );
+    register_setting( 'belline_options_group', 'belline_availability_status' );
+}
+add_action( 'admin_init', 'belline_register_settings' );
+
+function belline_register_options_page() {
+    add_options_page('Statut Voyance', 'Statut Voyance', 'manage_options', 'belline_status', 'belline_options_page');
+}
+add_action('admin_menu', 'belline_register_options_page');
+
+function belline_options_page() {
+    ?>
+    <div class="wrap">
+        <h2>Statut de Disponibilité</h2>
+        <form method="post" action="options.php">
+            <?php settings_fields( 'belline_options_group' ); ?>
+            <table class="form-table">
+                <tr valign="top">
+                    <th scope="row">Statut actuel:</th>
+                    <td>
+                        <?php $status = get_option('belline_availability_status', 'disponible'); ?>
+                        <label>
+                            <input type="radio" name="belline_availability_status" value="disponible" <?php checked($status, 'disponible'); ?> />
+                            Disponible (Vert)
+                        </label><br/>
+                        <label>
+                            <input type="radio" name="belline_availability_status" value="indisponible" <?php checked($status, 'indisponible'); ?> />
+                            Non Disponible (Rouge)
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <?php submit_button(); ?>
+        </form>
+    </div>
+    <?php
+}
