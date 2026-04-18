@@ -3529,10 +3529,38 @@ get_header(); ?>
           <strong style="color: yellow;">Carte 4</strong> (Futur) : Tirez la quatrième carte et placez-la en bas. Elle donne un aperçu des résultats ou des développements futurs possibles.<br>
           <strong style="color: yellow;">Carte 5</strong> (Conseil) : Tirez la cinquième carte et placez-la à droite de la première. Elle fournit des conseils ou des recommandations pour naviguer dans la situation.</p>
 
-          <div style="text-align: center; margin: 30px 0;">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage1.PNG" alt="Exemple Tirage en Croix 1" style="max-width: 100%; border-radius: 10px;">
-            <br><br>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage2.PNG" alt="Exemple Tirage en Croix 2" style="max-width: 100%; border-radius: 10px;">
+          <div style="display: flex; justify-content: center; margin: 40px 0;">
+            <div style="position: relative; width: 400px; height: 500px;">
+              <!-- Carte 3 (Haut) -->
+              <div style="position: absolute; top: 0; left: 150px; width: 100px;">
+                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">3</div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t3.jpg" alt="Carte 3" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+              </div>
+
+              <!-- Carte 2 (Gauche) -->
+              <div style="position: absolute; top: 160px; left: 0; width: 100px;">
+                <div style="position: absolute; top: 50%; left: -30px; transform: translateY(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">2</div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t2.jpg" alt="Carte 2" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+              </div>
+
+              <!-- Carte 1 (Centre) -->
+              <div style="position: absolute; top: 160px; left: 150px; width: 100px;">
+                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">1</div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t1.jpg" alt="Carte 1" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+              </div>
+
+              <!-- Carte 5 (Droite) -->
+              <div style="position: absolute; top: 160px; right: 0; width: 100px;">
+                <div style="position: absolute; top: 50%; right: -30px; transform: translateY(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">5</div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t5.jpg" alt="Carte 5" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+              </div>
+
+              <!-- Carte 4 (Bas) -->
+              <div style="position: absolute; bottom: 0; left: 150px; width: 100px;">
+                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #38bdf8; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">4</div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t4.jpg" alt="Carte 4" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+              </div>
+            </div>
           </div>
 
           <h3 style="color: red; text-align: center; font-style: italic;">Interprétation des lames</h3>
