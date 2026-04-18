@@ -3530,15 +3530,15 @@ get_header(); ?>
           <strong style="color: yellow;">Carte 5</strong> (Conseil) : Tirez la cinquième carte et placez-la à droite de la première. Elle fournit des conseils ou des recommandations pour naviguer dans la situation.</p>
 
           <div style="text-align: center; margin: 30px 0;">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage1.PNG" alt="Exemple Tirage en Croix 1" style="max-width: 100%; border-radius: 10px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t1.jpg" alt="Exemple Tirage en Croix 1" style="max-width: 100%; border-radius: 10px;">
             <br><br>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage2.PNG" alt="Exemple Tirage en Croix 2" style="max-width: 100%; border-radius: 10px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t2.jpg" alt="Exemple Tirage en Croix 2" style="max-width: 100%; border-radius: 10px;">
           </div>
 
           <h3 style="color: red; text-align: center; font-style: italic;">Interprétation des lames</h3>
 
           <div style="text-align: center; margin-top: 20px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage3.PNG" alt="Lame du départ" style="max-width: 100%; border-radius: 10px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t3.jpg" alt="Lame du départ" style="max-width: 100%; border-radius: 10px;">
           </div>
           <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame du départ</h4>
           <p>Carte 1 (Présent) : La situation actuelle dans l'arcane "Le Départ" évoque souvent des thèmes de transition, de changement et de nouveaux départs. Cet arcane peut symboliser le fait de laisser derrière soi une phase de sa vie pour en entamer une nouvelle, marquée par des opportunités et des perspectives encourageantes.</p>
@@ -3546,7 +3546,7 @@ get_header(); ?>
           <p>Sur le plan émotionnel, cet lame peut aussi suggérer un besoin de se recentrer, de redéfinir ses priorités, et de s’éloigner de ce qui ne nous sert plus. Il peut signaler une période où il faut avoir le courage de se lever et de partir vers de nouveaux horizons, même si cela implique des incertitudes.</p>
 
           <div style="text-align: center; margin-top: 30px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage4.PNG" alt="Lame du trafic" style="max-width: 100%; border-radius: 10px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t4.jpg" alt="Lame du trafic" style="max-width: 100%; border-radius: 10px;">
           </div>
           <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame du trafic</h4>
           <p>Dans le contexte de l’Oracle Belline, la lame du Trafic, lorsqu’elle apparaît en position d’obstacle dans un tirage en croix, peut avoir plusieurs significations. Voici une interprétation générale de cette carte dans cette position :</p>
@@ -3557,7 +3557,7 @@ get_header(); ?>
           <p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la lame du Trafic apparaît en position d’obstacle dans un tirage en croix de l’Oracle Belline, elle souligne la nécessité de faire attention aux perturbations, aux retards et aux distractions qui pourraient entraver votre progression. Il est essentiel d’évaluer les influences extérieures et de vous recentrer sur vos objectifs pour surmonter ces obstacles.</p>
 
           <div style="text-align: center; margin-top: 30px;">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/tirage5.PNG" alt="Lame de l'union" style="max-width: 100%; border-radius: 10px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t5.jpg" alt="Lame de l'union" style="max-width: 100%; border-radius: 10px;">
           </div>
           <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame de l'union</h4>
           <p>Lorsque la lame de l’Union apparaît en position passée dans un tirage en croix de l’Oracle Belline, elle évoque des influences et des événements passés significatifs qui ont façonné votre situation actuelle. Voici quelques interprétations spécifiques :</p>
@@ -3568,7 +3568,10 @@ get_header(); ?>
           <p><strong style="color: yellow;">Événements marquants</strong> : L’apparition de l’Union en position passée peut également signifier des événements marquants liés à des unions, comme un mariage, une réconciliation ou une célébration importante qui a eu lieu et qui a laissé une empreinte durable sur votre vie.</p>
           <p><strong style="color: yellow;">Conclusion</strong> : Dans l’ensemble, la lame de l’Union en position passée dans un tirage en croix de l’Oracle Belline souligne l’importance des relations et des connexions dans votre histoire personnelle. Elle met en avant les influences positives que ces liens ont pu avoir sur votre développement et votre situation actuelle, tout en rappelant que les expériences passées continuent de jouer un rôle dans votre présent. Ce tirage vous encourage à réfléchir sur ces relations et à reconnaître leur impact sur votre cheminement.</p>
 
-          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 30px;">Lame du bonheur</h4>
+          <div style="text-align: center; margin-top: 30px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/t5.jpg" alt="Lame du bonheur" style="max-width: 100%; border-radius: 10px;">
+          </div>
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame du bonheur</h4>
           <p>Lorsque la lame du Bonheur apparaît en position future dans un tirage en croix de l’Oracle Belline, elle porte des significations très positives et encourageantes. Voici quelques interprétations possibles :</p>
           <p><strong style="color: yellow;">Promesse de joie</strong> : La carte du Bonheur indique que des moments de joie, de satisfaction et de plénitude vous attendent. Elle suggère que des expériences positives et enrichissantes sont à venir, vous apportant un sentiment de réussite et de bonheur.</p>
           <p><strong style="color: yellow;">Accomplissement personnel</strong> : En position future, cette lame peut signifier que vous serez en mesure d’atteindre des objectifs personnels qui vous tiennent à cœur. Cela peut être lié à des projets, des relations ou des aspirations que vous avez mis en place.</p>
@@ -3577,7 +3580,10 @@ get_header(); ?>
           <p><strong style="color: yellow;">État d’esprit positif</strong> : Elle peut également évoquer un changement d’état d’esprit vers une attitude plus optimiste. Cela peut indiquer que vous serez en mesure de surmonter des défis et d’adopter une perspective qui favorise le bonheur.</p>
           <p><strong style="color: yellow;">Conclusion</strong> : En résumé, la lame du Bonheur en position future dans un tirage en croix de l’Oracle Belline est un excellent présage. Elle annonce des périodes de joie, d’accomplissement et de satisfaction à venir. Ce tirage vous encourage à rester ouvert aux opportunités de bonheur et à cultiver des relations positives, tout en vous préparant à accueillir les moments heureux qui se profilent à l’horizon.</p>
 
-          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 30px;">Lame de l'argent</h4>
+          <div style="text-align: center; margin-top: 30px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/oracle-belline/19-argent.jpg" alt="Lame de l'argent" style="max-width: 100%; border-radius: 10px; width: 140px;">
+          </div>
+          <h4 style="color: yellow; text-align: center; font-style: italic; margin-top: 10px;">Lame de l'argent</h4>
           <p>Lorsque la lame de l’Argent apparaît en position de résultat dans un tirage en croix de l’Oracle Belline, elle peut avoir plusieurs significations positives et encourageantes liées à la prospérité, la réussite matérielle et les ressources. Voici quelques interprétations possibles :</p>
           <p><strong style="color: yellow;">Prospérité financière</strong> : La lame de l’Argent indique souvent une amélioration de votre situation financière. Cela peut signifier que vous êtes sur le point de récolter les fruits de vos efforts, que ce soit à travers une augmentation de vos revenus, un gain inattendu ou une opportunité lucrative.</p>
           <p><strong style="color: yellow;">Stabilité matérielle</strong> : En position de résultat, cette carte suggère que vous atteindrez une certaine stabilité matérielle. Cela peut impliquer un équilibre dans vos finances, vous permettant de vous sentir plus en sécurité et serein quant à votre avenir.</p>
