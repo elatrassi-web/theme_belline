@@ -3644,7 +3644,7 @@ La configuration de la pyramide facilite une interprétation détaillée et nuan
     <!-- Niveau 3 : Sommet (Carte 6) -->
     <div style="position: absolute; top: 20px; left: 170px; width: 100px;">
       <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">6</div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/7.PNG" alt="Carte 6" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/p6.jpg" alt="Carte 6" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     </div>
 
     <!-- Niveau 2 : Milieu (Cartes 4 et 5) -->
