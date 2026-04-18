@@ -3756,7 +3756,142 @@ Dans le contexte du tirage de la pyramide de l'Oracle Belline, l'Étoile de l'Ho
         },
         "ligne": {
           title: "Tirage en ligne",
-          body: "<p><em>Contenu à venir...</em></p>"
+          body: `
+<h3 style="color: yellow; text-align: center; text-decoration: underline; margin-bottom: 20px;">Le tirage en "Ligne" à 5 cartes</h3>
+
+<p>Le tirage en ligne à cinq cartes de l'oracle Belline est une méthode de divination puissante et accessible qui permet d'explorer en profondeur une situation ou une question spécifique. Cette approche offre une vue d'ensemble claire des influences passées, présentes et futures, tout en mettant en lumière les obstacles potentiels et les conseils pour avancer.</p>
+
+<p><strong style="color: yellow;">Objectif du tirage en ligne</strong></p>
+<p>Dans ce tirage, chaque carte a une signification précise et occupe une position définie, permettant ainsi de structurer l'interprétation. Ce tirage est particulièrement apprécié pour sa simplicité et sa capacité à fournir des réponses nuancées, que ce soit dans le domaine personnel, professionnel, ou émotionnel.</p>
+<p>En utilisant ce tirage, vous pouvez non seulement obtenir des insights sur votre situation actuelle, mais aussi découvrir des pistes d'action et des éléments à considérer pour orienter vos choix. C'est un outil idéal pour ceux qui cherchent à mieux comprendre les dynamiques de leur vie et à prendre des décisions éclairées.</p>
+
+<p><strong style="color: yellow;">Structure du Tirage</strong></p>
+<p>Le tirage en ligne à cinq cartes se compose des positions suivantes :</p>
+<ul>
+  <li><strong>Position 1 (Passé)</strong> : Les influences et événements qui ont conduit à la situation actuelle.</li>
+  <li><strong>Position 2 (Présent)</strong> : L'état actuel des choses et les énergies environnantes.</li>
+  <li><strong>Position 3 (Futur)</strong> : Ce qui pourrait se produire dans un avenir proche.</li>
+  <li><strong>Position 4 (Obstacles)</strong> : Les défis ou blocages à surmonter.</li>
+  <li><strong>Position 5 (Conseils)</strong> : Les recommandations pour naviguer la situation ou l'issue potentielle.</li>
+</ul>
+
+<p>Disposez les cartes en ligne de la gauche vers le droite. Chaque carte tirée dans ces positions offre des perspectives et des conseils précieux, permettant ainsi d'approfondir votre compréhension et d'orienter vos actions de manière constructive.</p>
+
+<h3 style="color: yellow; text-align: center; text-decoration: underline; margin: 40px 0 20px 0;">Interprétation des lames</h3>
+
+<div style="display: flex; justify-content: space-between; margin: 40px 0; gap: 15px; flex-wrap: wrap;">
+  <!-- Carte 1 -->
+  <div style="flex: 1; min-width: 120px; text-align: center; position: relative;">
+    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">1</div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/ligne/1.jpg" alt="Carte 1" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </div>
+  <!-- Carte 2 -->
+  <div style="flex: 1; min-width: 120px; text-align: center; position: relative;">
+    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">2</div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/ligne/2.jpg" alt="Carte 2" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </div>
+  <!-- Carte 3 -->
+  <div style="flex: 1; min-width: 120px; text-align: center; position: relative;">
+    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">3</div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/ligne/3.jpg" alt="Carte 3" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </div>
+  <!-- Carte 4 -->
+  <div style="flex: 1; min-width: 120px; text-align: center; position: relative;">
+    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">4</div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/ligne/4.jpg" alt="Carte 4" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </div>
+  <!-- Carte 5 -->
+  <div style="flex: 1; min-width: 120px; text-align: center; position: relative;">
+    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: #2eb4f8; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-family: sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.3); z-index: 10;">5</div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/methodes/ligne/5.jpg" alt="Carte 5" style="width: 100%; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </div>
+</div>
+
+<h4 style="color: yellow; text-decoration: underline; margin-top: 30px;">Carte de "La Nouvelle" en Passé</h4>
+<p>Lorsque la carte “La Nouvelle” apparaît en position passé dans un tirage en ligne à cinq cartes de l'oracle Belline, elle indique que des événements ou des informations passés ont joué un rôle significatif dans la situation actuelle du consultant. Voici plusieurs aspects à considérer pour cette interprétation :</p>
+<p><strong>1. Informations Passées</strong><br>
+Cette carte suggère que vous avez reçu des nouvelles ou des informations importantes dans le passé qui ont influencé vos décisions et votre cheminement. Ces nouvelles ont pu vous apporter des éclaircissements ou des changements dans votre perspective.</p>
+<p><strong>2. Événements Annonciateurs</strong><br>
+“La Nouvelle” en position passé peut indiquer que des événements spécifiques, tels que des annonces, des révélations ou des conversations, ont eu lieu et ont été des catalyseurs pour des changements dans votre vie. Ces événements ont pu définir des orientations pour votre avenir.</p>
+<p><strong>3. Impact sur la Situation Actuelle</strong><br>
+Les nouvelles du passé continuent d'avoir un impact sur votre situation actuelle. Elles peuvent représenter des choix que vous avez faits en réponse à ces informations, façonnant ainsi votre réalité présente.</p>
+<p><strong>4. Réflexion sur des Leçons Apprises</strong><br>
+Cette position invite à réfléchir sur les leçons que vous avez tirées de ces nouvelles passées. Avez-vous appris à faire confiance à votre intuition ? Avez-vous dû faire face à des défis suite à ces informations ? Cela peut influencer la manière dont vous abordez les situations actuelles.</p>
+<p><strong>5. Préparation pour l'Avenir</strong><br>
+La carte peut également suggérer que les nouvelles passées vous ont préparé à ce qui est à venir. Les expériences antérieures vous ont peut-être donné des outils ou des connaissances qui seront utiles pour naviguer dans les défis futurs.</p>
+<p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la carte “La Nouvelle” se trouve en position passé, elle souligne l'importance des informations et des événements passés qui ont façonné votre situation actuelle. Cela vous invite à réfléchir sur l'impact de ces nouvelles sur votre cheminement et à considérer comment elles continuent d'influencer vos choix et votre état d'esprit. Cette introspection peut vous aider à mieux appréhender l'avenir et à prendre des décisions éclairées.</p>
+
+<h4 style="color: yellow; text-decoration: underline; margin-top: 30px;">Carte de "La Sagesse" en Présent</h4>
+<p>Lorsque la carte “La Sagesse” apparaît en position présent dans un tirage en ligne à cinq cartes de l'oracle Belline, elle souligne des thèmes importants liés à la réflexion, à la compréhension et à la prise de décision éclairée. Voici les principales interprétations de cette carte dans ce contexte :</p>
+<p><strong>1. Clarté Mentale</strong><br>
+Cette carte indique que vous êtes actuellement dans une phase de clarté mentale. Vous avez acquis des connaissances et des expériences qui vous permettent d'évaluer votre situation de manière réfléchie et objective. Vous êtes capable de voir au-delà des apparences et d'analyser les choses avec discernement.</p>
+<p><strong>2. Prise de Décision Éclairée</strong><br>
+“La Sagesse” suggère que vous êtes en mesure de prendre des décisions importantes basées sur une compréhension profonde de vous-même et de votre environnement. Vous pouvez faire confiance à votre jugement et à votre intuition pour guider vos choix.</p>
+<p><strong>3. Réflexion sur le Passé</strong><br>
+Cette position invite également à réfléchir sur les leçons apprises dans le passé. Vous utilisez ces expériences pour mieux comprendre votre situation actuelle et pour éviter de répéter d'anciennes erreurs.</p>
+<p><strong>4. Conseil et Guidance</strong><br>
+La carte peut également indiquer que vous êtes dans une position où d'autres cherchent votre sagesse ou vos conseils. Vous pourriez être vu comme une figure de soutien, capable d'apporter des éclaircissements aux autres dans leur cheminement.</p>
+<p><strong>5. Équilibre Émotionnel</strong><br>
+“La Sagesse” évoque un état d'équilibre émotionnel. Vous êtes capable de gérer vos émotions de manière constructive, ce qui vous permet de naviguer dans les défis actuels avec calme et assurance.</p>
+<p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la carte “La Sagesse” se trouve en position présent, elle souligne l'importance de la réflexion, de la clarté mentale et de la prise de décision éclairée. Vous êtes dans une phase où vous pouvez utiliser votre compréhension et votre expérience pour avancer de manière positive dans votre vie. Cette période de sagesse vous permet non seulement de mieux comprendre votre situation actuelle, mais aussi d'apporter un soutien précieux aux autres qui vous entourent.</p>
+
+<h4 style="color: yellow; text-decoration: underline; margin-top: 30px;">Carte de "Le Changement" en Futur</h4>
+<p>Lorsque la carte “Le Changement” apparaît en position futur dans un tirage en ligne à cinq cartes de l'oracle Belline, elle annonce des transformations significatives et des évolutions à venir dans votre vie. Voici les principales interprétations de cette carte dans ce contexte :</p>
+<p><strong>1. Transformations Imminentes</strong><br>
+Cette carte indique que des changements majeurs sont sur le point de se produire. Ces transformations peuvent toucher divers aspects de votre vie, que ce soit sur le plan personnel, professionnel ou émotionnel. Vous pourriez être amené à quitter des situations qui ne vous servent plus pour faire place à de nouvelles opportunités.</p>
+<p><strong>2. Adaptabilité et Souplesse</strong><br>
+“Le Changement” souligne l'importance de rester adaptable et ouvert aux nouvelles expériences. Les changements à venir nécessiteront peut-être que vous ajustiez vos attentes et que vous vous adaptiez aux nouvelles circonstances. Votre capacité à embrasser ces évolutions sera cruciale pour votre succès futur.</p>
+<p><strong>3. Évolution Personnelle</strong><br>
+Cette carte peut également symboliser une évolution personnelle. Vous êtes sur le point de découvrir de nouvelles facettes de vous-même ou d'explorer des passions et des intérêts qui enrichiront votre vie. Ce processus d'évolution pourrait vous amener à développer des compétences ou des talents que vous n'avez pas encore explorés.</p>
+<p><strong>4. Opportunités à Saisir</strong><br>
+Le Changement peut également représenter des occasions à saisir. Des nouvelles propositions, des collaborations ou des rencontres enrichissantes peuvent se présenter à vous. Il est essentiel de rester vigilant et prêt à saisir ces opportunités lorsqu'elles se présentent.</p>
+<p><strong>5. Libération du Passé</strong><br>
+Enfin, cette carte indique souvent une libération des poids du passé. Les changements à venir peuvent vous aider à vous détacher des schémas ou des situations qui vous freinaient. Cela vous permettra d'avancer avec plus de légèreté et d'optimisme.</p>
+<p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la carte “Le Changement” se trouve en position futur, elle annonce des transformations significatives et des évolutions positives dans votre vie. Cela invite à accueillir ces changements avec ouverture et adaptabilité, car ils peuvent apporter de nouvelles opportunités et favoriser votre développement personnel. Soyez prêt à embrasser ce qui vient, car ces évolutions auront le potentiel d'enrichir votre parcours.</p>
+
+<h4 style="color: yellow; text-decoration: underline; margin-top: 30px;">Carte de "Le Départ" en Obstacles</h4>
+<p>Lorsque la carte “Le Départ” apparaît en position obstacles dans un tirage en ligne à cinq cartes de l'oracle Belline, elle indique qu’il existe des défis ou des blocages qui vous empêchent d'avancer ou de vous engager dans un nouveau chemin. Voici les principales interprétations de cette carte dans ce contexte :</p>
+<p><strong>1. Hésitation à prendre des initiatives</strong><br>
+“Le Départ” en position obstacles peut suggérer que vous êtes réticent à prendre des mesures pour commencer quelque chose de nouveau. Cela peut être dû à des peurs, des doutes ou une appréhension face à l'inconnu. Vous pourriez avoir l'impression que le moment n'est pas propice pour faire un changement.</p>
+<p><strong>2. Attachement au passé</strong><br>
+Cette carte peut également indiquer que vous êtes trop attaché à des situations ou des relations passées. Cet attachement peut vous freiner et vous empêcher de vous projeter vers l'avenir. Il est essentiel de lâcher prise pour pouvoir avancer.</p>
+<p><strong>3. Manque de clarté sur les objectifs</strong><br>
+“Le Départ” en position obstacles peut signaler une confusion quant à vos objectifs ou à la direction que vous souhaitez prendre. Il peut être difficile de faire le premier pas si vous n'avez pas une vision claire de ce que vous voulez réaliser.</p>
+<p><strong>4. Peur de l'échec</strong><br>
+Cette carte peut aussi évoquer la peur de l'échec qui empêche d'agir. Vous pourriez craindre les conséquences d'un nouveau départ, ce qui vous paralyse et vous empêche d'explorer de nouvelles opportunités.</p>
+<p><strong>5. Timing inapproprié</strong><br>
+Enfin, “Le Départ” peut suggérer que le moment n'est pas encore idéal pour prendre un nouveau chemin. Cela ne signifie pas que vous ne devriez pas envisager le changement, mais que vous devez peut-être attendre que certaines conditions soient réunies.</p>
+<p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la carte “Le Départ” se trouve en position obstacles, elle souligne les défis et les freins qui vous empêchent d'engager un nouveau chemin ou de prendre des initiatives. Il est essentiel de réfléchir aux raisons pour lesquelles vous hésitez et d'identifier les peurs ou les attachements qui peuvent vous retenir. Cette introspection vous permettra de travailler sur ces obstacles et de vous préparer à faire un changement positif lorsque le moment sera venu.</p>
+
+<h4 style="color: yellow; text-decoration: underline; margin-top: 30px;">Carte de "Le Bonheur" en Position Conseils</h4>
+<p>Lorsque la carte “Le Bonheur” apparaît en position conseils dans un tirage en ligne à cinq cartes de l'oracle Belline, elle apporte un message positif et encourageant. Voici les principales interprétations de cette carte dans ce contexte :</p>
+<p><strong>1. Cultiver la Joie</strong><br>
+La carte “Le Bonheur” vous invite à chercher activement des sources de joie dans votre vie quotidienne. Cela peut signifier prendre le temps de profiter des petites choses qui vous rendent heureux, que ce soit des moments passés avec des proches, des loisirs ou des activités qui vous passionnent.</p>
+<p><strong>2. Adopter une Attitude Positive</strong><br>
+Cette carte encourage à adopter une perspective positive face aux défis. Même dans les moments difficiles, chercher le bon côté des choses peut vous aider à maintenir un état d'esprit constructif et à attirer des énergies positives.</p>
+<p><strong>3. Écouter vos Besoins Émotionnels</strong><br>
+“Le Bonheur” en position conseils vous rappelle l'importance de prêter attention à vos besoins émotionnels. Il est crucial de vous entourer de personnes qui vous soutiennent et de créer des environnements propices à votre bien-être.</p>
+<p><strong>4. Prendre des Initiatives pour le Bonheur</strong><br>
+Cette carte vous encourage à prendre des initiatives pour créer votre propre bonheur. Que ce soit par des changements dans votre routine, l'exploration de nouveaux centres d'intérêt ou la prise de décisions qui vous rapprochent de vos aspirations, il est temps d'agir pour votre propre satisfaction.</p>
+<p><strong>5. Partager le Bonheur</strong><br>
+Enfin, “Le Bonheur” peut également évoquer l'idée de partager votre joie avec les autres. Apporter du bonheur à ceux qui vous entourent peut renforcer vos relations et créer un environnement positif autour de vous.</p>
+<p><strong style="color: yellow;">Conclusion</strong> : En résumé, lorsque la carte “Le Bonheur” se trouve en position conseils, elle vous encourage à cultiver la joie, à adopter une attitude positive et à prêter attention à vos besoins émotionnels. C'est un appel à prendre des initiatives pour créer votre propre bonheur et à partager cette joie avec les autres. En suivant ces conseils, vous pouvez attirer des énergies positives et enrichir votre vie de manière significative.</p>
+
+<h4 style="color: yellow; text-decoration: underline; margin-top: 30px;">Synthèse</h4>
+<p>Ce tirage en ligne à cinq cartes de l'oracle Belline offre une vue d'ensemble riche et nuancée de votre situation actuelle et des influences en jeu.</p>
+<p><strong style="color: yellow;">Carte “La Nouvelle” en Passé</strong><br>
+Cette carte indique que des informations ou des événements significatifs du passé ont joué un rôle important dans la formation de votre situation actuelle. Ces nouvelles ont pu apporter des changements ou des révélations qui ont influencé vos choix et votre cheminement.</p>
+<p><strong style="color: yellow;">Carte “La Sagesse” en Présent</strong><br>
+Actuellement, vous vous trouvez dans une phase de clarté et de compréhension. Vous êtes en mesure d'évaluer votre situation avec discernement et de prendre des décisions éclairées. Cette période de sagesse vous permet d'utiliser vos expériences passées pour naviguer dans votre vie avec confiance et assurance.</p>
+<p><strong style="color: yellow;">Carte “Le Changement” en Futur</strong><br>
+À l'horizon, des transformations importantes se profilent. Cette carte annonce que des évolutions sont à venir, vous invitant à rester ouvert et adaptable face aux nouvelles opportunités. Les changements peuvent apporter un renouveau et vous inciter à explorer de nouveaux chemins.</p>
+<p><strong style="color: yellow;">Carte “Le Départ” en Obstacles</strong><br>
+Cependant, des obstacles peuvent entraver votre progression. Vous pourriez ressentir des hésitations, des peurs ou un attachement au passé qui vous empêchent de faire le premier pas vers ces changements. Il est important d'identifier ces freins et de travailler sur eux pour avancer.</p>
+<p><strong style="color: yellow;">Carte “Le Bonheur” en Position Conseils</strong><br>
+En guise de conseil, la carte “Le Bonheur” vous encourage à cultiver la joie et à adopter une attitude positive. Cherchez activement les sources de bonheur dans votre vie, écoutez vos besoins émotionnels et n'oubliez pas de partager cette joie avec ceux qui vous entourent. Cela vous aidera à créer un environnement propice à votre épanouissement.</p>
+<p><strong style="color: yellow;">Synthèse Globale</strong><br>
+Dans l'ensemble, ce tirage met en lumière un parcours enrichissant, marqué par des expériences passées significatives et une sagesse actuelle. Bien que des changements se profilent, il est essentiel de surmonter les obstacles qui pourraient freiner votre progression. En cultivant le bonheur et en restant ouvert aux opportunités, vous aurez les outils nécessaires pour avancer vers un avenir positif et épanouissant. Ce tirage vous invite à réfléchir à ces éléments pour naviguer de manière constructive dans votre vie.</p>
+`
         }
       };
 
