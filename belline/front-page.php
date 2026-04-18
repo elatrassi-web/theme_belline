@@ -238,6 +238,21 @@ get_header(); ?>
         text-align: center;
       "
     >
+
+      <?php if ( isset( $_GET['form_success'] ) && $_GET['form_success'] == '1' ) : ?>
+      <div style="background-color: #00b050; color: white; padding: 15px; margin-bottom: 20px; border-radius: 5px; text-align: center; font-weight: bold;">
+          Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.
+      </div>
+      <script>
+          // Clean the URL so the message doesn't persist on refresh
+          if (window.history.replaceState) {
+              const url = new URL(window.location);
+              url.searchParams.delete('form_success');
+              window.history.replaceState({path:url.href}, '', url.href);
+          }
+      </script>
+      <?php endif; ?>
+
       <!-- Welcome (Default Content based on original prompt) -->
       <div id="content-accueil" class="spa-content-section active">
         <h1 style="color: yellow; font-style: italic">
@@ -431,9 +446,12 @@ get_header(); ?>
         <form
           class="belline-form"
           method="POST"
-          action=""
+          action="<?php echo esc_url( admin_url('admin-post.php') ); ?>"
           enctype="multipart/form-data"
         >
+          <?php wp_nonce_field('submit_belline_form', 'belline_form_nonce'); ?>
+          <input type="hidden" name="action" value="submit_belline_form">
+          <input type="hidden" name="form_section" value="Voyance Gratuite">
           <div class="belline-form-group">
             <label>Votre prénom</label>
             <input type="text" name="prenom" required />
@@ -551,9 +569,12 @@ get_header(); ?>
         <form
           class="belline-form"
           method="POST"
-          action=""
+          action="<?php echo esc_url( admin_url('admin-post.php') ); ?>"
           enctype="multipart/form-data"
         >
+          <?php wp_nonce_field('submit_belline_form', 'belline_form_nonce'); ?>
+          <input type="hidden" name="action" value="submit_belline_form">
+          <input type="hidden" name="form_section" value="Consultation Détaillée par Mail">
           <div class="belline-form-group">
             <label>Votre prénom</label>
             <input type="text" name="prenom" required />
@@ -650,9 +671,12 @@ get_header(); ?>
         <form
           class="belline-form"
           method="POST"
-          action=""
+          action="<?php echo esc_url( admin_url('admin-post.php') ); ?>"
           enctype="multipart/form-data"
         >
+          <?php wp_nonce_field('submit_belline_form', 'belline_form_nonce'); ?>
+          <input type="hidden" name="action" value="submit_belline_form">
+          <input type="hidden" name="form_section" value="Consultation Détaillée par Tchat">
           <div class="belline-form-group">
             <label>Votre prénom</label>
             <input type="text" name="prenom" required />
@@ -885,7 +909,10 @@ get_header(); ?>
               font-weight: bold;
             "
           >
-            <form method="POST" action="" enctype="multipart/form-data">
+            <form method="POST" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" enctype="multipart/form-data">
+          <?php wp_nonce_field('submit_belline_form', 'belline_form_nonce'); ?>
+          <input type="hidden" name="action" value="submit_belline_form">
+          <input type="hidden" name="form_section" value="Magie Blanche">
               <table
                 style="
                   width: 100%;
@@ -1149,7 +1176,10 @@ get_header(); ?>
               font-weight: bold;
             "
           >
-            <form method="POST" action="" enctype="multipart/form-data">
+            <form method="POST" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" enctype="multipart/form-data">
+          <?php wp_nonce_field('submit_belline_form', 'belline_form_nonce'); ?>
+          <input type="hidden" name="action" value="submit_belline_form">
+          <input type="hidden" name="form_section" value="Coaching Personnel">
               <table
                 style="
                   width: 100%;
@@ -1393,7 +1423,10 @@ get_header(); ?>
               font-weight: bold;
             "
           >
-            <form method="POST" action="" enctype="multipart/form-data">
+            <form method="POST" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" enctype="multipart/form-data">
+          <?php wp_nonce_field('submit_belline_form', 'belline_form_nonce'); ?>
+          <input type="hidden" name="action" value="submit_belline_form">
+          <input type="hidden" name="form_section" value="Consultation à Domicile">
               <table
                 style="
                   width: 100%;

@@ -84,3 +84,148 @@ function belline_options_page() {
     </div>
     <?php
 }
+
+
+/**
+ * Register Custom Post Type for Form Messages
+ */
+function belline_register_messages_cpt() {
+    $labels = array(
+        'name'                  => 'Messages Formulaires',
+        'singular_name'         => 'Message',
+        'menu_name'             => 'Messages',
+        'all_items'             => 'Tous les Messages',
+        'view_item'             => 'Voir le Message',
+        'search_items'          => 'Chercher un message',
+        'not_found'             => 'Aucun message trouvé',
+        'not_found_in_trash'    => 'Aucun message dans la corbeille',
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => false,
+        'publicly_queryable' => false,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => false,
+        'rewrite'            => false,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => false,
+        'menu_position'      => 20,
+        'menu_icon'          => 'dashicons-email',
+        'supports'           => array( 'title', 'editor', 'custom-fields' ),
+    );
+
+    register_post_type( 'belline_message', $args );
+}
+add_action( 'init', 'belline_register_messages_cpt' );
+
+/**
+ * Customize Columns for Messages CPT
+ */
+function belline_messages_columns( $columns ) {
+    $new_columns = array(
+        'cb' => $columns['cb'],
+        'title' => 'Sujet / Expéditeur',
+        'form_section' => 'Section de Provenance',
+        'sender_email' => 'Email',
+        'date' => $columns['date'],
+    );
+    return $new_columns;
+}
+add_filter( 'manage_belline_message_posts_columns', 'belline_messages_columns' );
+
+function belline_messages_custom_column( $column, $post_id ) {
+    switch ( $column ) {
+        case 'form_section':
+            echo esc_html( get_post_meta( $post_id, 'form_section', true ) );
+            break;
+        case 'sender_email':
+            echo esc_html( get_post_meta( $post_id, 'sender_email', true ) );
+            break;
+    }
+}
+add_action( 'manage_belline_message_posts_custom_column', 'belline_messages_custom_column', 10, 2 );
+
+
+/**
+ * Form Submission Handler
+ */
+function belline_handle_form_submission() {
+    // Check nonce for security
+    if ( ! isset( $_POST['belline_form_nonce'] ) || ! wp_verify_nonce( $_POST['belline_form_nonce'], 'submit_belline_form' ) ) {
+        wp_die( 'La vérification de sécurité a échoué. Veuillez réessayer.' );
+    }
+
+    $section = isset( $_POST['form_section'] ) ? sanitize_text_field( wp_unslash( $_POST['form_section'] ) ) : 'Inconnue';
+    $prenom  = isset( $_POST['prenom'] ) ? sanitize_text_field( wp_unslash( $_POST['prenom'] ) ) : '';
+    $email   = isset( $_POST['email'] ) ? sanitize_email( wp_unslash( $_POST['email'] ) ) : '';
+
+    // Collect all other fields dynamically
+    $content = "<h2>Nouveau message depuis : " . esc_html( $section ) . "</h2>";
+    $content .= "<ul>";
+
+    foreach ( $_POST as $key => $value ) {
+        // Skip hidden/system fields
+        if ( in_array( $key, array('action', 'belline_form_nonce', '_wp_http_referer', 'form_section') ) ) {
+            continue;
+        }
+        $label = ucfirst( str_replace( '_', ' ', $key ) );
+        $val   = sanitize_textarea_field( wp_unslash( $value ) );
+        $content .= "<li><strong>" . esc_html( $label ) . ":</strong> " . esc_html( $val ) . "</li>";
+    }
+    $content .= "</ul>";
+
+    // Handle File Upload (Photo)
+    require_once( ABSPATH . 'wp-admin/includes/image.php' );
+    require_once( ABSPATH . 'wp-admin/includes/file.php' );
+    require_once( ABSPATH . 'wp-admin/includes/media.php' );
+
+    $attachment_id = 0;
+    if ( isset( $_FILES['photo'] ) && ! empty( $_FILES['photo']['name'] ) ) {
+        $attachment_id = media_handle_upload( 'photo', 0 );
+        if ( is_wp_error( $attachment_id ) ) {
+            // Log error or append to content
+            $content .= "<p><em>Erreur lors de l'upload de la photo : " . $attachment_id->get_error_message() . "</em></p>";
+            $attachment_id = 0;
+        } else {
+            $photo_url = wp_get_attachment_url( $attachment_id );
+            $content .= "<p><strong>Photo jointe :</strong><br><img src='" . esc_url( $photo_url ) . "' style='max-width:300px;'/></p>";
+        }
+    }
+
+    // Create the Post
+    $post_title = 'Message de ' . $prenom . ' (' . $section . ')';
+    $post_data = array(
+        'post_title'   => wp_strip_all_tags( $post_title ),
+        'post_content' => $content,
+        'post_status'  => 'publish',
+        'post_type'    => 'belline_message',
+    );
+
+    $post_id = wp_insert_post( $post_data );
+
+    if ( $post_id ) {
+        // Save meta data for columns
+        update_post_meta( $post_id, 'form_section', $section );
+        update_post_meta( $post_id, 'sender_email', $email );
+
+        // Attach image to post if successful
+        if ( $attachment_id ) {
+            wp_update_post( array(
+                'ID'          => $attachment_id,
+                'post_parent' => $post_id
+            ) );
+        }
+
+        // Redirect back with success message
+        $redirect_url = add_query_arg( 'form_success', '1', wp_get_referer() );
+        wp_safe_redirect( $redirect_url );
+        die();
+    } else {
+        wp_die( 'Erreur lors de la sauvegarde du message.' );
+    }
+}
+add_action( 'admin_post_submit_belline_form', 'belline_handle_form_submission' );
+add_action( 'admin_post_nopriv_submit_belline_form', 'belline_handle_form_submission' );
