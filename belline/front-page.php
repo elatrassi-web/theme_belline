@@ -3495,8 +3495,44 @@ get_header(); ?>
 
       <!-- Planètes Content -->
       <div id="content-planetes" class="spa-content-section">
-        <h2>Planètes</h2>
-        <p><em>Contenu à venir...</em></p>
+
+        <h2 style="color: yellow; font-style: italic; text-align: center; font-size: 24px; margin-bottom: 20px;">L'influence des planètes de l'Oracle Belline</h2>
+        <div style="text-align: center; margin-bottom: 30px;">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/planetes_logo.png" alt="Planètes Logo" style="width: 150px;">
+        </div>
+
+        <p>En cartomancie chaque planète représente des influences spécifiques sur notre vie et sur nos expériences. Voici les significations attribuées à chaque planète.</p>
+
+        <ol style="line-height: 1.8; text-align: left; max-width: 800px; margin: 0 auto; padding-left: 20px;">
+          <li><strong style="color: yellow;">Soleil</strong> : symbole de succès, de réussite et de vitalité</li>
+          <li><strong style="color: yellow;">Lune</strong> : représente l'intuition, la sensibilité et les émotions</li>
+          <li><strong style="color: yellow;">Mercure</strong> : symbolise la communication, les échanges, les déplacements et la rapidité</li>
+          <li><strong style="color: yellow;">Vénus</strong> : indique l'amour, la beauté, l'harmonie et la créativité</li>
+          <li><strong style="color: yellow;">Mars</strong> : représente l'énergie, la force, la passion et l'action</li>
+          <li><strong style="color: yellow;">Jupiter</strong> : symbolise la chance, la fortune, l'expansion et la croissance</li>
+          <li><strong style="color: yellow;">Saturne</strong> : indique la responsabilité, la discipline, les limites et les leçons à apprendre</li>
+          <li><strong style="color: yellow;">Uranus</strong> : représente le changement, l'imprévu, la rébellion et l'originalité</li>
+          <li><strong style="color: yellow;">Neptune</strong> : symbolise l'illusion, l'intuition, l'inspiration et la spiritualité</li>
+          <li><strong style="color: yellow;">Pluton</strong> : indique la transformation, la renaissance, le pouvoir et la profondeur</li>
+        </ol>
+
+        <p style="margin-top: 20px;">Lors d'une séance de cartomancie avec l'oracle Belline, les planètes sont souvent associées aux cartes et interprétées en fonction de leur position et des cartes qui les entourent, pour donner des indications sur les événements à venir et les influences qui vont peser sur la vie du consultant.</p>
+
+        <p style="margin-top: 20px;"><span style="color: red;">*</span>Je vous propse également une interprétation des autres planètes utilisées en astrologie...</p>
+
+        <ul style="list-style-type: none; padding-left: 0; text-align: left; max-width: 800px; margin: 20px auto;">
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> Le soleil</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> La lune</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> Mercure</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> Vénus</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> Mars</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> Jupiter</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> Saturne</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> <span style="color: red;">*</span> Uranus</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> <span style="color: red;">*</span> Neptune</li>
+          <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;"><input type="radio" disabled checked style="accent-color: #2eb4f8;"> <span style="color: red;">*</span> Pluton</li>
+        </ul>
+
       </div>
 
       <!-- Methodes Modal -->
