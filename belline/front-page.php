@@ -1696,7 +1696,6 @@ get_header(); ?>
               href="https://www.paypal.com/donate/?hosted_button_id=FPXPGLMG3W59E"
               target="_blank"
               rel="noopener noreferrer"
-              onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=FPXPGLMG3W59E', 'PayPalDonate', 'width=600,height=800,scrollbars=yes,resizable=yes,left=' + ((screen.width - 600) / 2) + ',top=' + ((screen.height - 800) / 2)); return false;"
             >
               <img
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/bouton_don.png"
