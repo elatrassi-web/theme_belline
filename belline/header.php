@@ -66,8 +66,16 @@
             </a>
             <?php
             $availability_status = get_option('belline_availability_status', 'disponible');
-            $status_color = ($availability_status === 'disponible') ? '#00b050' : '#ff0000';
-            $status_text = ($availability_status === 'disponible') ? 'DISPONIBLE' : 'NON DISPONIBLE';
+            if ($availability_status === 'disponible') {
+                $status_color = '#00b050';
+                $status_text = 'DISPONIBLE';
+            } elseif ($availability_status === 'en_voyance') {
+                $status_color = '#ffa500';
+                $status_text = 'EN VOYANCE';
+            } else {
+                $status_color = '#ff0000';
+                $status_text = 'NON DISPONIBLE';
+            }
             ?>
             <div style="margin-top: 20px;">
                 <div style="display: inline-block; border: 2px solid #000; border-radius: 5px; padding: 5px 15px; font-family: sans-serif; font-weight: bold; font-size: 14px; background-color: rgba(255, 255, 255, 0.2); box-shadow: inset 0 0 5px rgba(0,0,0,0.5);">

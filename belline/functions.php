@@ -73,6 +73,10 @@ function belline_options_page() {
                             Disponible (Vert)
                         </label><br/>
                         <label>
+                            <input type="radio" name="belline_availability_status" value="en_voyance" <?php checked($status, 'en_voyance'); ?> />
+                            En voyance (Orange)
+                        </label><br/>
+                        <label>
                             <input type="radio" name="belline_availability_status" value="indisponible" <?php checked($status, 'indisponible'); ?> />
                             Non Disponible (Rouge)
                         </label>
