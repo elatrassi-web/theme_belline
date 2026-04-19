@@ -1693,7 +1693,7 @@ get_header(); ?>
 
           <div style="text-align: center; margin-top: 30px">
             <a
-              href="https://www.paypal.com/donate?token=CPoHOj-rwjZoW_lu8xOuM57_-4cK61YS8we2gRjAqFNPmKJiQ4sQFE4DgiSEIMG-gR0HiHDk83H1FKiq"
+              href="https://www.paypal.com/donate/?hosted_button_id=FPXPGLMG3W59E"
               target="_blank"
               rel="noopener noreferrer"
             >

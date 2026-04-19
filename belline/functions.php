@@ -229,3 +229,33 @@ function belline_handle_form_submission() {
 }
 add_action( 'admin_post_submit_belline_form', 'belline_handle_form_submission' );
 add_action( 'admin_post_nopriv_submit_belline_form', 'belline_handle_form_submission' );
+
+// Auto-create PayPal Thank You and Cancel pages
+function belline_create_paypal_pages() {
+    $pages_to_create = array(
+        'remerciement-don' => array(
+            'title'   => 'Remerciement Don',
+            'content' => '<div style="text-align:center; padding: 50px 20px;"><h1 style="color: #ffff00;">Merci beaucoup !</h1><p style="font-size: 18px; color: #fff;">Votre don a bien été reçu. Votre soutien est très apprécié et m\'aide à continuer ce travail.</p><br><br><a href="' . home_url('/') . '" style="color: #000; background-color: #ffff00; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px;">Retour à l\'accueil</a></div>'
+        ),
+        'annulation-don' => array(
+            'title'   => 'Annulation de Don',
+            'content' => '<div style="text-align:center; padding: 50px 20px;"><h1 style="color: #ff0000;">Don Annulé</h1><p style="font-size: 18px; color: #fff;">Votre don a été annulé. Aucune somme ne vous a été débitée.</p><br><br><a href="' . home_url('/') . '" style="color: #000; background-color: #ffff00; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px;">Retour à l\'accueil</a></div>'
+        )
+    );
+
+    foreach ($pages_to_create as $slug => $page_data) {
+        $page_check = get_page_by_path($slug);
+        if (!isset($page_check->ID)) {
+            $new_page = array(
+                'post_type'    => 'page',
+                'post_title'   => $page_data['title'],
+                'post_content' => $page_data['content'],
+                'post_status'  => 'publish',
+                'post_author'  => 1,
+                'post_name'    => $slug,
+            );
+            wp_insert_post($new_page);
+        }
+    }
+}
+add_action('init', 'belline_create_paypal_pages');
