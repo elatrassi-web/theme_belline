@@ -1700,9 +1700,18 @@ get_header(); ?>
               <img
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/bouton_don.png"
                 alt="Faire un don"
-                style="max-width: 300px"
+                style="max-width: 350px"
               />
             </a>
+
+            <div style="margin-top: 40px; display: inline-block; background-color: #ffff99; border: 2px solid #000; padding: 0; text-align: center;">
+                <div style="background-color: #000; color: #fff; font-size: 10px; text-align: left; padding: 2px 5px;">ecn Ads</div>
+                <div style="padding: 10px 20px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_wero.png" alt="Wero Logo" style="max-height: 40px; margin-bottom: 5px;">
+                    <br>
+                    <a href="tel:+33767222914" style="color: #000; font-size: 24px; font-family: serif; text-decoration: none;">07.67.22.29.14</a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
