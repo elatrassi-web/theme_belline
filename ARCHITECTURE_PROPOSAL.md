@@ -55,6 +55,27 @@ Proxmox dispose d'une API REST complète qui permet une automatisation totale.
 
 L'objectif est d'atteindre le "Zéro Touch Provisioning" : dès que la VM est créée, elle s'auto-configure et est prête à l'emploi.
 
+### Comment le client demande-t-il son VPN ? (Parcours Utilisateur)
+
+La demande de VPN s'inscrit dans le flux conversationnel IA détaillé en partie 1. Voici comment l'interaction se déroule de la demande initiale à la livraison :
+
+1.  **L'Expression du Besoin (Chat IA) :**
+    *   L'utilisateur interagit avec l'assistant IA. Il n'a pas besoin de dire "Je veux un serveur Wireguard 2 VCPU 4GB RAM".
+    *   *Exemple de prompt utilisateur :* "Je pars travailler depuis des cafés à Bali pendant 3 mois et j'ai besoin d'une connexion sécurisée vers la France", ou bien "Mon équipe de 5 personnes a besoin d'accéder de manière sécurisée à notre intranet depuis l'extérieur."
+2.  **L'Analyse et la Recommandation (Côté Backend/LLM) :**
+    *   L'IA interprète la demande et détermine la charge réseau estimée et le type d'usage.
+    *   Elle recommande une configuration adaptée. *Exemple : "Pour 5 personnes, je vous propose un serveur VPN privé en France, optimisé pour la stabilité. Cela coûte X € / mois."*
+3.  **Personnalisation et Validation (Le "Wizard") :**
+    *   Le Front-End génère une carte de présentation dynamique.
+    *   L'utilisateur peut, s'il le souhaite, ajuster quelques paramètres simples via l'interface (ex: choisir la région du serveur, ajouter des utilisateurs supplémentaires).
+    *   Il procède ensuite au paiement (Stripe/PayPal).
+4.  **Réception des Accès (La Livraison) :**
+    *   Une fois le serveur provisionné par le backend (voir section 2) et auto-configuré (voir ci-dessous), l'utilisateur reçoit une notification (via WebSocket sur la plateforme ou par email).
+    *   Dans son espace client, il découvre une interface simplifiée affichant :
+        *   Un bouton de téléchargement de l'application cliente (Wireguard/OpenVPN) adaptée à son OS.
+        *   Un **QR Code** à scanner avec son téléphone pour une configuration instantanée.
+        *   Un fichier de configuration (`.conf` ou `.ovpn`) à télécharger pour son ordinateur.
+
 ### Couche de pré-configuration (L'automatisation OS)
 
 L'outil standard et incontournable ici est **Cloud-Init**. Il est nativement supporté par Proxmox et la plupart des OS Linux (Ubuntu, Debian, AlmaLinux).
