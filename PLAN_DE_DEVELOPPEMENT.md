@@ -14,10 +14,12 @@ Ce document présente la feuille de route stratégique pour le développement de
 
 *   **Livrables :**
     *   Maquettes interactives du parcours conversationnel.
-    *   Développement du Front-End (Next.js ou Vue.js) intégrant le moteur d'IA.
+    *   Développement du Front-End (Next.js ou Vue.js) intégrant le double parcours de création :
+        *   **Création par Prompt IA :** L'utilisateur décrit son besoin en langage naturel, et l'IA génère l'application sur mesure.
+        *   **Sélection par Thème/Template :** L'utilisateur choisit directement parmi une galerie de solutions pré-configurées et recommandées (ex: "Pack Télétravail Sécurisé", "Serveur WooCommerce Haute Performance").
     *   Mise en place de l'orchestration LLM : l'IA interprète les besoins (ex: "VPN pour 5 personnes à Bali") et génère instantanément la structure JSON de l'offre.
     *   Création des animations fluides, des "skeleton loaders" et de l'instanciation instantanée des tableaux de bord pour créer l'illusion du "1-clic".
-*   **Validation Client attendue :** Approbation du design, de la fluidité de la conversation et de la pertinence des recommandations de l'IA.
+*   **Validation Client attendue :** Approbation du design, des deux parcours de création (Prompt libre vs Thèmes), de la fluidité de la conversation et de la pertinence des recommandations de l'IA.
 
 ## Phase 2 : Le Cœur de la Plateforme (Backend & Transactionnel)
 *Une fois le Front-End validé, nous développons le moteur central ("le chef d'orchestre") chargé de recevoir les commandes, de sécuriser les accès et de gérer l'argent.*
