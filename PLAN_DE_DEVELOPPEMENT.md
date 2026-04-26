@@ -61,3 +61,34 @@ Pour déclencher le projet, nous vous invitons à :
 1. Valider le présent plan de développement et la stratégie en 4 phases.
 2. Nous fournir les accès préliminaires à l'environnement hyperviseur (Proxmox) si déjà existant, pour un premier audit de compatibilité.
 3. Fixer la réunion de lancement (Kick-off) pour amorcer la **Phase 1**.
+
+---
+
+## Annexe : Délais et Modèles Budgétaires
+
+Le développement d'une infrastructure hybride automatisée est un projet à forte valeur ajoutée technologique. Voici les estimations de délais et les deux options d'accompagnement financier proposées.
+
+### 1. Estimation des Délais (Total : 3 à 5 mois)
+*Pour une équipe dédiée (ex: 1 Développeur Full-Stack/Cloud + 1 Intégrateur/Designer).*
+*   **Phase 1 (UX & PoC IA) :** 3 à 4 semaines.
+*   **Phase 2 (Backend & Transactionnel) :** 4 à 5 semaines.
+*   **Phase 3 (Provisioning Cloud & Proxmox) :** 4 à 6 semaines *(Phase la plus complexe).*
+*   **Phase 4 (Recette & Lancement) :** 2 à 3 semaines.
+*(Note : Ce délai peut être compressé à 2,5 mois si le budget permet de paralléliser les équipes Front-End et DevOps).*
+
+### 2. Modèles de Facturation Proposés
+
+**Option A : Projet au Forfait (Budget fixe)**
+Ce modèle vous garantit un coût fixe pour un périmètre strict, défini à l'avance.
+*   **Budget estimatif global :** Entre 25 000 € et 40 000 € HT *(selon le niveau de personnalisation du design et le nombre de templates VPN/VPS de départ).*
+*   **Échéancier de facturation classique :**
+    *   30% à la signature (Lancement de la Phase 1).
+    *   30% à la validation du Backend (Fin de la Phase 2).
+    *   30% à la validation du Provisioning automatique (Fin de la Phase 3).
+    *   10% à la mise en production (Phase 4).
+
+**Option B : Modèle "Team as a Service" (Paiement au mois / Régie Agile)**
+Ce modèle est idéal si vous souhaitez de la flexibilité (ajouter ou modifier des fonctionnalités en cours de route) et lisser l'investissement financier.
+*   **Budget mensuel :** Entre 6 000 € et 9 000 € HT / mois.
+*   **Fonctionnement :** Facturation mensuelle fixe. Nous définissons ensemble les objectifs de chaque mois (Sprints). Vous contrôlez l'avancement et vous avez la possibilité d'ajuster les priorités (ex: "Ce mois-ci, on accélère sur de nouveaux templates Cloud").
+*   **Avantage :** Plus souple, permet souvent de sortir une première version vendable (MVP) plus rapidement sans s'engager sur un cahier des charges figé.
