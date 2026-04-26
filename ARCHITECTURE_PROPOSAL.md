@@ -130,6 +130,19 @@ Comment le backend sait-il que le script VPN a terminé son installation à l'in
 `[ Serveur Client (VM/CT) ]` --- (Webhook "Phone Home" final) ---> `[ Backend Laravel ]`
 
 
+## Hébergement et Déploiement de la Plateforme (CI/CD)
+
+Pour répondre à la question de savoir comment le code ("les dossiers") est envoyé et comment la plateforme elle-même est hébergée (et non les serveurs des clients), nous utilisons des pipelines d'intégration et de déploiement continus (CI/CD) automatisés.
+
+1.  **Le Référentiel de Code (Git) :**
+    *   L'ensemble du code source (Front-End et Back-End) est hébergé de manière sécurisée et versionnée sur **GitHub** ou **GitLab**. C'est le point central de vérité.
+2.  **L'Hébergement du Front-End (Next.js/Vue) :**
+    *   La plateforme se connecte à **Vercel** ou **Netlify**.
+    *   *Le Processus :* Dès qu'une modification est validée sur GitHub (un "commit"), Vercel récupère automatiquement le nouveau code, compile le Front-End, et le déploie sur son réseau CDN mondial en quelques secondes. C'est l'approche Edge Computing pour une vitesse maximale.
+3.  **L'Hébergement du Back-End (Laravel/Node.js) :**
+    *   Le Back-End nécessite un serveur applicatif dédié robuste. Il sera hébergé sur une plateforme Cloud réputée (ex: **AWS**, **DigitalOcean**, ou sur l'infrastructure **Proxmox** de l'entreprise via une VM isolée).
+    *   *Le Processus :* Nous utilisons **Laravel Forge** ou **GitHub Actions**. Dès qu'une mise à jour est validée, le serveur est notifié, il "pull" (télécharge) la dernière version du code depuis GitHub, met à jour la base de données de manière sécurisée (migrations), et redémarre les services sans aucune interruption pour les utilisateurs (Zero Downtime Deployment).
+
 ## Anticipation des Goulots d'Étranglement
 
 1. **Latence de l'IA (UX)** : L'analyse d'un prompt par un LLM peut prendre 2 à 5 secondes.
